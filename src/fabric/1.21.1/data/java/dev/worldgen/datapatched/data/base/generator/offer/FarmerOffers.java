@@ -58,7 +58,7 @@ public class FarmerOffers {
         return register(
             context,
             name(4, "sell_suspicious_stew_" + effect.unwrapKey().get().location().getPath()),
-            TradeOfferBuilder.itemsForEmeralds(stack, 1, 12, 15)
+            TradeOfferBuilder.itemsForEmeralds(stack, 1, 12, 15, 0.05f)
         );
     }
 

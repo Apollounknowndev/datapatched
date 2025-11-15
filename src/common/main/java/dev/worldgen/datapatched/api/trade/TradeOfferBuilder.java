@@ -27,11 +27,15 @@ public class TradeOfferBuilder {
     }
 
     public static TradeOffer itemsForEmeralds(ItemLike selling, int emeraldCount, int sellingCount, int maxUses, int xp) {
-        return itemsForEmeralds(new ItemStack(selling, sellingCount), emeraldCount, maxUses, xp);
+        return itemsForEmeralds(selling, emeraldCount, sellingCount, maxUses, xp, 0.05f);
     }
 
-    public static TradeOffer itemsForEmeralds(ItemStack selling, int emeraldCount, int maxUses, int xp) {
-        return new Base(new ItemCost(Items.EMERALD, emeraldCount), Optional.empty(), selling, Optional.empty(), maxUses, xp, 0.05F);
+    public static TradeOffer itemsForEmeralds(ItemLike selling, int emeraldCount, int sellingCount, int maxUses, int xp, float priceMultiplier) {
+        return itemsForEmeralds(new ItemStack(selling, sellingCount), emeraldCount, maxUses, xp, priceMultiplier);
+    }
+
+    public static TradeOffer itemsForEmeralds(ItemStack selling, int emeraldCount, int maxUses, int xp, float priceMultiplier) {
+        return new Base(new ItemCost(Items.EMERALD, emeraldCount), Optional.empty(), selling, Optional.empty(), maxUses, xp, priceMultiplier);
     }
 
 
