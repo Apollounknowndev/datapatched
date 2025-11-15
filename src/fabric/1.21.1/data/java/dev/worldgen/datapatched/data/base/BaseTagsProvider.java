@@ -35,6 +35,8 @@ public class BaseTagsProvider extends FabricTagProvider<TradeOffer> {
         base("fletcher", FletcherOffers.OFFERS);
         base("librarian", LibrarianOffers.OFFERS);
         base("shepherd", ShepherdOffers.OFFERS);
+        base("toolsmith", ToolsmithOffers.OFFERS);
+        base("weaponsmith", WeaponsmithOffers.OFFERS);
     }
 
     private void base(String profession, List<List<ResourceKey<TradeOffer>>> offers) {

@@ -4,11 +4,9 @@ import dev.worldgen.datapatched.api.trade.TradeOffer;
 import dev.worldgen.datapatched.api.trade.TradeOfferBuilder;
 import dev.worldgen.datapatched.data.overlay.generator.OverlayTradeOfferBootstrap;
 import dev.worldgen.datapatched.impl.trade.offer.Empty;
-import dev.worldgen.datapatched.impl.trade.offer.EnchantedItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.util.InclusiveRange;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.PotionContents;
@@ -18,7 +16,6 @@ import net.minecraft.world.level.ItemLike;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import static dev.worldgen.datapatched.data.overlay.generator.OverlayTradeOfferBootstrap.key;
 
@@ -74,7 +71,7 @@ public class WanderingTraderOffers {
 
     private static void special(BootstrapContext<TradeOffer> context, ItemStack stack, int buyingCount, int sellingCount, int maxUses, boolean addToTag) {
         var key = baseKey("special/sell_", stack.getItem());
-        context.register(key, TradeOfferBuilder.itemsForEmeralds(stack, buyingCount, sellingCount, maxUses));
+        context.register(key, TradeOfferBuilder.itemsForEmeralds(stack, buyingCount, sellingCount, maxUses, 0.05f));
         if (addToTag) SPECIAL_OVERLAY_OFFERS.add(key);
     }
 
