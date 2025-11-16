@@ -3,6 +3,7 @@ package dev.worldgen.datapatched.impl;
 import com.mojang.serialization.MapCodec;
 import dev.worldgen.datapatched.api.loot.LootModifier;
 import dev.worldgen.datapatched.api.trade.TradeOffer;
+import dev.worldgen.datapatched.impl.loot.function.ApplyDyesFunction;
 import dev.worldgen.datapatched.impl.loot.function.DiscardFunction;
 import dev.worldgen.datapatched.impl.loot.function.ItemSwapFunction;
 import dev.worldgen.datapatched.impl.loot.modifier.AddEntries;
@@ -54,6 +55,7 @@ public class Datapatched {
     public static void registerLootFunctions(BiConsumer<String, LootItemFunctionType<?>> consumer) {
         consumer.accept("item_swap", ItemSwapFunction.TYPE);
         consumer.accept("discard", DiscardFunction.TYPE);
+        consumer.accept("apply_dyes", ApplyDyesFunction.TYPE);
     }
 
     public static void registerLootModifiers(BiConsumer<String, MapCodec<? extends LootModifier>> consumer) {

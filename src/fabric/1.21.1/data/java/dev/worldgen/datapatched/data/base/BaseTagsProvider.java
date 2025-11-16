@@ -34,6 +34,7 @@ public class BaseTagsProvider extends FabricTagProvider<TradeOffer> {
         base("farmer", FarmerOffers.OFFERS);
         base("fisherman", FishermanOffers.OFFERS);
         base("fletcher", FletcherOffers.OFFERS);
+        base("leatherworker", LeatherworkerOffers.OFFERS);
         base("librarian", LibrarianOffers.OFFERS);
         base("shepherd", ShepherdOffers.OFFERS);
         base("toolsmith", ToolsmithOffers.OFFERS);
