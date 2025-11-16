@@ -1,6 +1,8 @@
-package dev.worldgen.datapatched.data.overlay;
+package dev.worldgen.datapatched.data;
 
 import dev.worldgen.datapatched.api.DatapatchedRegistries;
+import dev.worldgen.datapatched.data.overlay.OverlayRegistriesProvider;
+import dev.worldgen.datapatched.data.overlay.OverlayTagsProvider;
 import dev.worldgen.datapatched.data.overlay.generator.OverlayTradeOfferBootstrap;
 import dev.worldgen.datapatched.data.overlay.generator.OverlayTradeOfferProviderBootstrap;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -8,7 +10,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.core.RegistrySetBuilder;
 
-public class OverlayDatapatchedDatagen implements DataGeneratorEntrypoint {
+public class DatapatchedDatagen implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator generator) {
         FabricDataGenerator.Pack pack = generator.createPack();

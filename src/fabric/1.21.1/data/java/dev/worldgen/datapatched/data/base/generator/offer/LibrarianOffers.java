@@ -2,6 +2,7 @@ package dev.worldgen.datapatched.data.base.generator.offer;
 
 import dev.worldgen.datapatched.api.trade.TradeOffer;
 import dev.worldgen.datapatched.api.trade.TradeOfferBuilder;
+import dev.worldgen.datapatched.impl.trade.offer.Empty;
 import dev.worldgen.datapatched.impl.trade.offer.EnchantedBook;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
@@ -44,7 +45,8 @@ public class LibrarianOffers {
             register(context, name(4, "sell_compass"), TradeOfferBuilder.itemsForEmeralds(Items.COMPASS, 4, 1, 12, 15))
         ));
         OFFERS.add(List.of(
-            register(context, name(5, "sell_name_tag"), TradeOfferBuilder.itemsForEmeralds(Items.NAME_TAG, 20, 1, 12, 30))
+            register(context, name(5, "sell_name_tag"), TradeOfferBuilder.itemsForEmeralds(Items.NAME_TAG, 20, 1, 12, 30)),
+            register(context, name(5, "sell_enchanted_book"), new Empty()) // Trade Rebalance fills this
         ));
     }
 

@@ -73,7 +73,7 @@ cloche {
                 value = "dev.worldgen.datapatched.impl.DatapatchedEntrypoint"
             }
             entrypoint("fabric-datagen") {
-                value = "dev.worldgen.datapatched.data.base.BaseDatapatchedDatagen"
+                value = "dev.worldgen.datapatched.data.DatapatchedDatagen"
             }
         }
     }
@@ -104,7 +104,7 @@ cloche {
                 value = "dev.worldgen.datapatched.impl.DatapatchedEntrypoint"
             }
             entrypoint("fabric-datagen") {
-                value = "dev.worldgen.datapatched.data.overlay.OverlayDatapatchedDatagen"
+                value = "dev.worldgen.datapatched.data.DatapatchedDatagen"
             }
         }
     }
