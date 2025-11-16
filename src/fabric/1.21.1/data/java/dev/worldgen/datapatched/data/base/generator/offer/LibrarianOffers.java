@@ -52,7 +52,7 @@ public class LibrarianOffers {
 
     private static TradeOffer book(BootstrapContext<TradeOffer> context, int xp) {
         HolderSet.Named<Enchantment> enchantments = context.lookup(Registries.ENCHANTMENT).get(EnchantmentTags.TRADEABLE).get();
-        return new EnchantedBook(Optional.of(new ItemCost(Items.BOOK)), enchantments, 3, 3, 12, xp, 0.2f);
+        return new EnchantedBook(Optional.of(new ItemCost(Items.BOOK)), enchantments, 1, 255, 12, xp, 0.2f);
     }
 
     private static String name(int level, String name) {

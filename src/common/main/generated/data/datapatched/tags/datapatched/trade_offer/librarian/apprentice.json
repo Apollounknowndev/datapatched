@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:librarian/apprentice/buy_book",
+    "datapatched:librarian/apprentice/sell_enchanted_book",
+    "datapatched:librarian/apprentice/sell_lantern"
+  ]
+}

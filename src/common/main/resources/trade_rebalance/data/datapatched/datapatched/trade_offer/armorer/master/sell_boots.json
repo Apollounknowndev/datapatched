@@ -1,0 +1,108 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 8,
+          "id": "minecraft:emerald"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_boots"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:feather_falling": 1
+          }
+        }
+      },
+      "types": "minecraft:jungle"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 12,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 2,
+          "id": "minecraft:diamond"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:diamond_boots"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:protection": 1
+          }
+        }
+      },
+      "types": "minecraft:plains"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 12,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 2,
+          "id": "minecraft:diamond"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:diamond_boots"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:frost_walker": 1
+          }
+        }
+      },
+      "types": "minecraft:snow"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 8,
+          "id": "minecraft:emerald"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_boots"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:depth_strider": 1
+          }
+        }
+      },
+      "types": "minecraft:swamp"
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

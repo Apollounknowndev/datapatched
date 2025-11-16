@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:farmer/apprentice/buy_pumpkin",
+    "datapatched:farmer/apprentice/sell_pumpkin_pie",
+    "datapatched:farmer/apprentice/sell_apple"
+  ]
+}

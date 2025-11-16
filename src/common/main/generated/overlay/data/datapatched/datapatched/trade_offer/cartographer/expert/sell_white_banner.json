@@ -1,0 +1,28 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 2,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:white_banner"
+        }
+      },
+      "types": [
+        "minecraft:snow",
+        "minecraft:plains"
+      ]
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "datapatched:base",
+  "buying": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "experience": 1,
+  "max_uses": 2,
+  "price_multiplier": 0.05,
+  "selling": {
+    "count": 1,
+    "id": "minecraft:emerald"
+  }
+}

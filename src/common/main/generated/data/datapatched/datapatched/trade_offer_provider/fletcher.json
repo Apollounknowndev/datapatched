@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:fletcher/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fletcher/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fletcher/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fletcher/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fletcher/master"
+    }
+  ]
+}

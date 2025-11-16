@@ -1,0 +1,144 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 13,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:iron_chestplate"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:thorns": 1
+          }
+        }
+      },
+      "types": "minecraft:desert"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 13,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_chestplate"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:unbreaking": 1
+          }
+        }
+      },
+      "types": "minecraft:jungle"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 13,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:iron_chestplate"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:protection": 1
+          }
+        }
+      },
+      "types": "minecraft:plains"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 7,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:iron_chestplate"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:binding_curse": 1
+          }
+        }
+      },
+      "types": "minecraft:savanna"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 13,
+          "id": "minecraft:emerald"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_chestplate"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:mending": 1
+          }
+        }
+      },
+      "types": "minecraft:swamp"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 2,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:diamond_chestplate"
+        },
+        "experience": 15,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:diamond_helmet"
+        }
+      },
+      "types": "minecraft:taiga"
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

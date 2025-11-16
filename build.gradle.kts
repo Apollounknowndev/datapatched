@@ -54,7 +54,7 @@ cloche {
 
         loaderVersion = "0.17.0"
         minecraftVersion = "1.21.1"
-        datagenDirectory = file("build/generated/resources/main")
+        datagenDirectory = file("src/common/main/generated")
 
         dependencies {
             fabricApi("0.116.1")
@@ -83,7 +83,7 @@ cloche {
 
         loaderVersion = "0.17.3"
         minecraftVersion = "1.21.10"
-        datagenDirectory = file("build/generated/resources/main")
+        datagenDirectory = file("src/common/main/generated")
 
         dependencies {
             fabricApi("0.138.0")
@@ -114,10 +114,13 @@ cloche {
 
         loaderVersion = "21.1.206"
         minecraftVersion = "1.21.1"
+        datagenDirectory = file("src/common/main/generated")
 
+        data()
         runs {
             client()
             server()
+            data()
         }
     }
 
@@ -126,10 +129,13 @@ cloche {
 
         loaderVersion = "21.10.49-beta"
         minecraftVersion = "1.21.10"
+        datagenDirectory = file("src/common/main/generated")
 
+        data()
         runs {
             client()
             server()
+            data()
         }
     }
 }

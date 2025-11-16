@@ -1,0 +1,51 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 8,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:compass"
+        },
+        "experience": 5,
+        "max_uses": 12,
+        "price_multiplier": 0.2,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:map"
+        },
+        "selling_modifier": {
+          "function": "minecraft:sequence",
+          "functions": [
+            {
+              "decoration": "minecraft:jungle_temple",
+              "destination": "minecraft:on_jungle_explorer_maps",
+              "function": "minecraft:exploration_map",
+              "search_radius": 100
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.explorer_jungle"
+              },
+              "target": "item_name"
+            }
+          ]
+        }
+      },
+      "types": [
+        "minecraft:swamp",
+        "minecraft:savanna",
+        "minecraft:desert"
+      ]
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

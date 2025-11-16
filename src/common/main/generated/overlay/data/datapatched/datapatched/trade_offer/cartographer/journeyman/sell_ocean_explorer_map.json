@@ -1,0 +1,36 @@
+{
+  "type": "datapatched:base",
+  "buying": {
+    "count": 13,
+    "id": "minecraft:emerald"
+  },
+  "buying_secondary": {
+    "count": 1,
+    "id": "minecraft:compass"
+  },
+  "experience": 10,
+  "max_uses": 12,
+  "price_multiplier": 0.2,
+  "selling": {
+    "count": 1,
+    "id": "minecraft:map"
+  },
+  "selling_modifier": {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "decoration": "minecraft:monument",
+        "destination": "minecraft:on_ocean_explorer_maps",
+        "function": "minecraft:exploration_map",
+        "search_radius": 100
+      },
+      {
+        "function": "minecraft:set_name",
+        "name": {
+          "translate": "filled_map.monument"
+        },
+        "target": "item_name"
+      }
+    ]
+  }
+}

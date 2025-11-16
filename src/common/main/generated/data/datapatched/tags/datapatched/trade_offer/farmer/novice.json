@@ -1,0 +1,9 @@
+{
+  "values": [
+    "datapatched:farmer/novice/buy_wheat",
+    "datapatched:farmer/novice/buy_potato",
+    "datapatched:farmer/novice/buy_carrot",
+    "datapatched:farmer/novice/buy_beetroot",
+    "datapatched:farmer/novice/sell_bread"
+  ]
+}

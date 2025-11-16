@@ -1,0 +1,26 @@
+{
+  "values": [
+    "datapatched:shepherd/expert/buy_brown_dye",
+    "datapatched:shepherd/expert/buy_purple_dye",
+    "datapatched:shepherd/expert/buy_blue_dye",
+    "datapatched:shepherd/expert/buy_green_dye",
+    "datapatched:shepherd/expert/buy_magenta_dye",
+    "datapatched:shepherd/expert/buy_cyan_dye",
+    "datapatched:shepherd/expert/sell_white_banner",
+    "datapatched:shepherd/expert/sell_orange_banner",
+    "datapatched:shepherd/expert/sell_magenta_banner",
+    "datapatched:shepherd/expert/sell_light_blue_banner",
+    "datapatched:shepherd/expert/sell_yellow_banner",
+    "datapatched:shepherd/expert/sell_lime_banner",
+    "datapatched:shepherd/expert/sell_pink_banner",
+    "datapatched:shepherd/expert/sell_gray_banner",
+    "datapatched:shepherd/expert/sell_light_gray_banner",
+    "datapatched:shepherd/expert/sell_cyan_banner",
+    "datapatched:shepherd/expert/sell_purple_banner",
+    "datapatched:shepherd/expert/sell_blue_banner",
+    "datapatched:shepherd/expert/sell_brown_banner",
+    "datapatched:shepherd/expert/sell_green_banner",
+    "datapatched:shepherd/expert/sell_red_banner",
+    "datapatched:shepherd/expert/sell_black_banner"
+  ]
+}

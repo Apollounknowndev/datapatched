@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:fisherman/apprentice/buy_cod",
+    "datapatched:fisherman/apprentice/cook_salmon",
+    "datapatched:fisherman/apprentice/sell_campfire"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "datapatched:cartographer/apprentice/sell_taiga_village_map",
+    "datapatched:cartographer/apprentice/sell_swamp_explorer_map",
+    "datapatched:cartographer/apprentice/sell_snowy_village_map",
+    "datapatched:cartographer/apprentice/sell_savanna_village_map",
+    "datapatched:cartographer/apprentice/sell_plains_village_map",
+    "datapatched:cartographer/apprentice/sell_jungle_explorer_map",
+    "datapatched:cartographer/apprentice/sell_desert_village_map",
+    "datapatched:cartographer/apprentice/sell_ocean_explorer_map"
+  ]
+}

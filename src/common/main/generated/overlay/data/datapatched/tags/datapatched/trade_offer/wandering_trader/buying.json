@@ -1,0 +1,10 @@
+{
+  "values": [
+    "datapatched:wandering_trader/buying/buy_potion",
+    "datapatched:wandering_trader/buying/buy_water_bucket",
+    "datapatched:wandering_trader/buying/buy_milk_bucket",
+    "datapatched:wandering_trader/buying/buy_fermented_spider_eye",
+    "datapatched:wandering_trader/buying/buy_baked_potato",
+    "datapatched:wandering_trader/buying/buy_hay_block"
+  ]
+}

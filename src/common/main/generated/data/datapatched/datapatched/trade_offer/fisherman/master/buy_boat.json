@@ -1,0 +1,105 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:oak_boat"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:plains"
+      ]
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:spruce_boat"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:taiga",
+        "minecraft:snow"
+      ]
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:jungle_boat"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:desert",
+        "minecraft:jungle"
+      ]
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:acacia_boat"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:savanna"
+      ]
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:dark_oak_boat"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:swamp"
+      ]
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

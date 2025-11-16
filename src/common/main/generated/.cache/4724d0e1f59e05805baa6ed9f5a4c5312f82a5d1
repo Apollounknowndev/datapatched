@@ -1,0 +1,9 @@
+// 1.21.10	-999999999-01-01T00:00:00	Datapatched/Overlay tags for datapatched:trade_offer
+1a0259935c1e8d3ced8c3b38cdf671d58b03dc82 overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/apprentice_overlay.json
+55df8b34ad5dff015bf4cef7f7b2198263cdaf71 overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/expert_overlay.json
+b00001a03b89ff5edc4703ba3eef3726c36f88e4 overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/journeyman_overlay.json
+370db1849fec7a612364f2b548f0bbf3b1ee3bd1 overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/master_overlay.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/novice_overlay.json
+4f8aef2293a524d97484c54871804fe2c4739e6d overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/buying.json
+c7d329c53829d78a3564ae5925f6f76be607dcb8 overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/normal_overlay.json
+9d8fc50418483398ff489334e9806760f3cd5cc0 overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/special_overlay.json

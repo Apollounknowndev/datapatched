@@ -1,0 +1,20 @@
+{
+  "values": [
+    "datapatched:cartographer/expert/sell_blue_banner",
+    "datapatched:cartographer/expert/sell_white_banner",
+    "datapatched:cartographer/expert/sell_red_banner",
+    "datapatched:cartographer/expert/sell_green_banner",
+    "datapatched:cartographer/expert/sell_lime_banner",
+    "datapatched:cartographer/expert/sell_purple_banner",
+    "datapatched:cartographer/expert/sell_cyan_banner",
+    "datapatched:cartographer/expert/sell_yellow_banner",
+    "datapatched:cartographer/expert/sell_orange_banner",
+    "datapatched:cartographer/expert/sell_brown_banner",
+    "datapatched:cartographer/expert/sell_magenta_banner",
+    "datapatched:cartographer/expert/sell_light_blue_banner",
+    "datapatched:cartographer/expert/sell_pink_banner",
+    "datapatched:cartographer/expert/sell_gray_banner",
+    "datapatched:cartographer/expert/sell_black_banner",
+    "datapatched:cartographer/expert/sell_light_gray_banner"
+  ]
+}

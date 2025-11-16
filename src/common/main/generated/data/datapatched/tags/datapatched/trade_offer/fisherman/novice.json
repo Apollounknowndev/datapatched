@@ -1,0 +1,8 @@
+{
+  "values": [
+    "datapatched:fisherman/novice/buy_string",
+    "datapatched:fisherman/novice/buy_coal",
+    "datapatched:fisherman/novice/cook_cod",
+    "datapatched:fisherman/novice/sell_cod_bucket"
+  ]
+}

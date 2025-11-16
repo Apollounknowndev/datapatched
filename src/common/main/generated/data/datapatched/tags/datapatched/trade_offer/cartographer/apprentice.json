@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:cartographer/apprentice/buy_glass_pane",
+    "datapatched:cartographer/apprentice/sell_ocean_explorer_map",
+    "#datapatched:cartographer/apprentice_overlay"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:butcher/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:butcher/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:butcher/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:butcher/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:butcher/master"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "datapatched:armorer/novice/buy_coal",
+    "datapatched:armorer/novice/buy_iron_ingot"
+  ]
+}

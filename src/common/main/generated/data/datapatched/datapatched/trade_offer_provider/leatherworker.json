@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:leatherworker/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:leatherworker/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:leatherworker/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:leatherworker/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:leatherworker/master"
+    }
+  ]
+}

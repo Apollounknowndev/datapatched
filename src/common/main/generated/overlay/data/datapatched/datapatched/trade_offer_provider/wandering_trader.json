@@ -1,0 +1,16 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:wandering_trader/buying"
+    },
+    {
+      "count": 5,
+      "entries": "#datapatched:wandering_trader/normal"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:wandering_trader/special"
+    }
+  ]
+}

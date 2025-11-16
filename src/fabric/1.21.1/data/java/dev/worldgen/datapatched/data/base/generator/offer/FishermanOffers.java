@@ -38,7 +38,7 @@ public class FishermanOffers {
         ));
         OFFERS.add(List.of(
             register(context, name(5, "buy_pufferfish"), TradeOfferBuilder.emeraldsForItems(Items.PUFFERFISH, 4, 12, 30)),
-            register(context, name(5, "sell_boat"), new TypeSpecific(
+            register(context, name(5, "buy_boat"), new TypeSpecific(
                 TypeSpecific.entry(boat(Items.OAK_BOAT), VillagerKeys.PLAINS),
                 TypeSpecific.entry(boat(Items.SPRUCE_BOAT), VillagerKeys.TAIGA, VillagerKeys.SNOW),
                 TypeSpecific.entry(boat(Items.JUNGLE_BOAT), VillagerKeys.DESERT, VillagerKeys.JUNGLE),

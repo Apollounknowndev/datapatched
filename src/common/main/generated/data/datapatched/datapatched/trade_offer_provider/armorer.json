@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:armorer/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:armorer/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:armorer/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:armorer/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:armorer/master"
+    }
+  ]
+}

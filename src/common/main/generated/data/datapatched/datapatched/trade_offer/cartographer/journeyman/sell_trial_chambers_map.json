@@ -1,0 +1,36 @@
+{
+  "type": "datapatched:base",
+  "buying": {
+    "count": 12,
+    "id": "minecraft:emerald"
+  },
+  "buying_secondary": {
+    "count": 1,
+    "id": "minecraft:compass"
+  },
+  "experience": 10,
+  "max_uses": 12,
+  "price_multiplier": 0.2,
+  "selling": {
+    "count": 1,
+    "id": "minecraft:map"
+  },
+  "selling_modifier": {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "decoration": "minecraft:trial_chambers",
+        "destination": "minecraft:on_trial_chambers_maps",
+        "function": "minecraft:exploration_map",
+        "search_radius": 100
+      },
+      {
+        "function": "minecraft:set_name",
+        "name": {
+          "translate": "filled_map.trial_chambers"
+        },
+        "target": "item_name"
+      }
+    ]
+  }
+}

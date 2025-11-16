@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:fisherman/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fisherman/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fisherman/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fisherman/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:fisherman/master"
+    }
+  ]
+}

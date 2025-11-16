@@ -1,0 +1,8 @@
+{
+  "values": [
+    "datapatched:cartographer/journeyman/buy_compass",
+    "datapatched:cartographer/journeyman/sell_woodland_explorer_map",
+    "datapatched:cartographer/journeyman/sell_trial_chambers_map",
+    "#datapatched:cartographer/journeyman_overlay"
+  ]
+}

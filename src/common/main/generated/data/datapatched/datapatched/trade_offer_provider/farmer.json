@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:farmer/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:farmer/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:farmer/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:farmer/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:farmer/master"
+    }
+  ]
+}
