@@ -8,6 +8,7 @@
     "loot.ReloadableServerRegistriesMixin",
     "trade.ServerPacksSourceMixin",
     "trade.VillagerMixin",
+    "trade.VillagerTradesMixin",
     "trade.WanderingTraderMixin"
   ],
   "injectors": {
