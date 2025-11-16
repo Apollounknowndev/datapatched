@@ -19,6 +19,7 @@ public class BaseTradeOfferProviderBootstrap {
         )));
 
         base(context, "armorer");
+        base(context, "butcher");
         base(context, "cartographer");
         base(context, "cleric");
         base(context, "farmer");
