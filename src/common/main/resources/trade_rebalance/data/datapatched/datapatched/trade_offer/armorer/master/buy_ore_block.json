@@ -1,0 +1,49 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:iron_block"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 4,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": [
+        "minecraft:desert",
+        "minecraft:plains",
+        "minecraft:savanna",
+        "minecraft:snow",
+        "minecraft:jungle",
+        "minecraft:swamp"
+      ]
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 1,
+          "id": "minecraft:diamond_block"
+        },
+        "experience": 30,
+        "max_uses": 12,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 42,
+          "id": "minecraft:emerald"
+        }
+      },
+      "types": "minecraft:taiga"
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

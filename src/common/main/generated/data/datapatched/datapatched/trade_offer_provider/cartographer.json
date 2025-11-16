@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:cartographer/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cartographer/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cartographer/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cartographer/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cartographer/master"
+    }
+  ]
+}

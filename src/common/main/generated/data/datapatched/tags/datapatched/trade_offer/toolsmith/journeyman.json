@@ -1,0 +1,9 @@
+{
+  "values": [
+    "datapatched:toolsmith/journeyman/buy_flint",
+    "datapatched:toolsmith/journeyman/sell_enchanted_stone_axe",
+    "datapatched:toolsmith/journeyman/sell_enchanted_stone_shovel",
+    "datapatched:toolsmith/journeyman/sell_enchanted_stone_pickaxe",
+    "datapatched:toolsmith/journeyman/sell_diamond_hoe"
+  ]
+}

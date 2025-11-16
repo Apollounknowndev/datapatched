@@ -1,0 +1,12 @@
+{
+  "trade_tiers": [
+    {
+      "count": 1,
+      "entries": "#datapatched:wandering_trader/normal"
+    },
+    {
+      "count": 1,
+      "entries": "#datapatched:wandering_trader/special"
+    }
+  ]
+}

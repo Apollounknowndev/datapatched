@@ -1,0 +1,14 @@
+{
+  "type": "datapatched:base",
+  "buying": {
+    "count": 20,
+    "id": "minecraft:emerald"
+  },
+  "experience": 30,
+  "max_uses": 12,
+  "price_multiplier": 0.05,
+  "selling": {
+    "count": 1,
+    "id": "minecraft:name_tag"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 9,
+          "id": "minecraft:emerald"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_helmet"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:projectile_protection": 1
+          }
+        }
+      },
+      "types": "minecraft:jungle"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 6,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 2,
+          "id": "minecraft:diamond"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:diamond_helmet"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:binding_curse": 1
+          }
+        }
+      },
+      "types": "minecraft:savanna"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 12,
+          "id": "minecraft:emerald"
+        },
+        "buying_secondary": {
+          "count": 3,
+          "id": "minecraft:diamond"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:diamond_helmet"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:aqua_affinity": 1
+          }
+        }
+      },
+      "types": "minecraft:snow"
+    },
+    {
+      "trade": {
+        "type": "datapatched:base",
+        "buying": {
+          "count": 9,
+          "id": "minecraft:emerald"
+        },
+        "experience": 30,
+        "max_uses": 3,
+        "price_multiplier": 0.05,
+        "selling": {
+          "count": 1,
+          "id": "minecraft:chainmail_helmet"
+        },
+        "selling_modifier": {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:respiration": 1
+          }
+        }
+      },
+      "types": "minecraft:swamp"
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

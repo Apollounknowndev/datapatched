@@ -1,0 +1,106 @@
+{
+  "type": "datapatched:type_specific",
+  "entries": [
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/plains_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:plains"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/taiga_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:taiga"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/snow_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:snow"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/desert_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:desert"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/jungle_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:jungle"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/savanna_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:savanna"
+    },
+    {
+      "trade": {
+        "type": "datapatched:enchanted_book",
+        "buying_secondary": {
+          "count": 1,
+          "id": "minecraft:book"
+        },
+        "enchantments": "#minecraft:trades/swamp_common",
+        "experience": 1,
+        "max_uses": 12,
+        "price_multiplier": 0.2
+      },
+      "types": "minecraft:swamp"
+    }
+  ],
+  "fallback": {
+    "type": "datapatched:empty"
+  }
+}

@@ -22,7 +22,9 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.world.level.storage.loot.functions.LootItemFunctionType;
+import net.msrandom.multiplatform.annotations.Actual;
 import net.msrandom.multiplatform.annotations.Expect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +33,11 @@ public class Datapatched {
     public static final String MOD_ID = "datapatched";
     public static final Logger LOGGER = LoggerFactory.getLogger("datapatched");
 
-    @Expect public static <T> Registry<T> registry(RegistryAccess registries, ResourceKey<? extends Registry<T>> key);
+    @Expect
+    public static <T> Registry<T> registry(RegistryAccess registries, ResourceKey<? extends Registry<T>> key);
+
+    @Expect
+    public static Pack.ResourcesSupplier createTradeRebalanceSupplier();
 
     public static ResourceLocation id(String name) {
         return ResourceLocation.fromNamespaceAndPath("datapatched", name);

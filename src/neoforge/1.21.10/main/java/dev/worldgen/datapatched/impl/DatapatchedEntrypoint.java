@@ -9,6 +9,7 @@ import dev.worldgen.datapatched.impl.trade.provider.TradeOfferProvider;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.flag.FeatureFlagSet;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DataPackRegistryEvent;
@@ -19,6 +20,7 @@ import net.neoforged.neoforge.registries.RegisterEvent;
 public class DatapatchedEntrypoint {
     public static final DeferredRegister<MapCodec<? extends LootModifier>> DEFERRED_LOOT_MODIFIER_TYPES = DeferredRegister.create(DatapatchedRegistries.LOOT_MODIFIER_TYPE, Datapatched.MOD_ID);
     public static final DeferredRegister<MapCodec<? extends TradeOffer>> DEFERRED_TRADE_OFFER_TYPES = DeferredRegister.create(DatapatchedRegistries.TRADE_OFFER_TYPE, Datapatched.MOD_ID);
+    public static FeatureFlagSet featureFlags = FeatureFlagSet.of();
 
     public DatapatchedEntrypoint(IEventBus bus) {
         DatapatchedBuiltInRegistries.init();

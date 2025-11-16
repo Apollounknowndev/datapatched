@@ -1,0 +1,15 @@
+{
+  "type": "datapatched:enchanted_item",
+  "buying": {
+    "count": 8,
+    "id": "minecraft:emerald"
+  },
+  "experience": 30,
+  "levels": [
+    5,
+    19
+  ],
+  "max_uses": 3,
+  "price_multiplier": 0.2,
+  "selling": "minecraft:diamond_sword"
+}

@@ -1,0 +1,41 @@
+{
+  "features": {
+    "enabled": [
+      "minecraft:trade_rebalance"
+    ]
+  },
+  "pack": {
+    "description": {
+      "translate": "dataPack.trade_rebalance.description"
+    },
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      88
+    ],
+    "min_format": 48,
+    "max_format": 88
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "none",
+        "formats": [
+          48,
+          88
+        ],
+        "min_format": 48,
+        "max_format": 88
+      },
+      {
+        "directory": "overlay",
+        "formats": [
+          88,
+          88
+        ],
+        "min_format": 88,
+        "max_format": 88
+      }
+    ]
+  }
+}

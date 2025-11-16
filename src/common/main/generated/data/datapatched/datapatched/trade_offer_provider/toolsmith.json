@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:toolsmith/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:toolsmith/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:toolsmith/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:toolsmith/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:toolsmith/master"
+    }
+  ]
+}

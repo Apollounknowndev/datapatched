@@ -1,0 +1,8 @@
+{
+  "values": [
+    "datapatched:butcher/novice/buy_chicken",
+    "datapatched:butcher/novice/buy_porkchop",
+    "datapatched:butcher/novice/buy_rabbit",
+    "datapatched:butcher/novice/sell_rabbit_stew"
+  ]
+}

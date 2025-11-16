@@ -6,6 +6,7 @@
     "loot.LootPoolAccessor",
     "loot.LootTableAccessor",
     "loot.ReloadableServerRegistriesMixin",
+    "trade.ServerPacksSourceMixin",
     "trade.VillagerMixin",
     "trade.WanderingTraderMixin"
   ],

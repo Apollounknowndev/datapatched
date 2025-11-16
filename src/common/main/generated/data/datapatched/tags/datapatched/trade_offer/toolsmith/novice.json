@@ -1,0 +1,9 @@
+{
+  "values": [
+    "datapatched:toolsmith/novice/buy_coal",
+    "datapatched:toolsmith/novice/sell_stone_axe",
+    "datapatched:toolsmith/novice/sell_stone_shovel",
+    "datapatched:toolsmith/novice/sell_stone_pickaxe",
+    "datapatched:toolsmith/novice/sell_stone_hoe"
+  ]
+}

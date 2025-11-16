@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:librarian/novice/buy_paper",
+    "datapatched:librarian/novice/sell_enchanted_book",
+    "datapatched:librarian/novice/sell_bookshelf"
+  ]
+}

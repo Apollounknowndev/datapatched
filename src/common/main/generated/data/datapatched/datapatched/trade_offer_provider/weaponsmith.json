@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:weaponsmith/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:weaponsmith/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:weaponsmith/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:weaponsmith/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:weaponsmith/master"
+    }
+  ]
+}

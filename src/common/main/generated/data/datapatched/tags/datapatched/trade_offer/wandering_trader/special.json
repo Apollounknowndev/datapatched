@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#datapatched:wandering_trader/special_overlay",
+    "datapatched:wandering_trader/special/sell_tropical_fish_bucket",
+    "datapatched:wandering_trader/special/sell_pufferfish_bucket",
+    "datapatched:wandering_trader/special/sell_packed_ice",
+    "datapatched:wandering_trader/special/sell_blue_ice",
+    "datapatched:wandering_trader/special/sell_gunpowder",
+    "datapatched:wandering_trader/special/sell_podzol"
+  ]
+}

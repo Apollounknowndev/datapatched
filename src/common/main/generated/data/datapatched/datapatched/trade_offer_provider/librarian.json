@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:librarian/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:librarian/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:librarian/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:librarian/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:librarian/master"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "values": [
+    "datapatched:butcher/apprentice/buy_coal",
+    "datapatched:butcher/apprentice/sell_cooked_porkchop",
+    "datapatched:butcher/apprentice/sell_cooked_chicken"
+  ]
+}

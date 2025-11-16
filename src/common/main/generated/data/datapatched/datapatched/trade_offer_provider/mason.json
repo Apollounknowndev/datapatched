@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:mason/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:mason/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:mason/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:mason/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:mason/master"
+    }
+  ]
+}

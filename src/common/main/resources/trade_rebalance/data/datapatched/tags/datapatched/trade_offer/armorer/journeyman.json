@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "datapatched:armorer/journeyman/buy_lava_bucket",
+    "datapatched:armorer/journeyman/sell_bell",
+    "datapatched:armorer/journeyman/sell_shield"
+  ]
+}

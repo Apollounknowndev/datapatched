@@ -1,0 +1,24 @@
+{
+  "trade_tiers": [
+    {
+      "count": 2,
+      "entries": "#datapatched:cleric/novice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cleric/apprentice"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cleric/journeyman"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cleric/expert"
+    },
+    {
+      "count": 2,
+      "entries": "#datapatched:cleric/master"
+    }
+  ]
+}

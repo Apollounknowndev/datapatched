@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "datapatched:armorer/apprentice/sell_boots",
+    "datapatched:armorer/apprentice/sell_leggings",
+    "datapatched:armorer/apprentice/sell_chestplate",
+    "datapatched:armorer/apprentice/sell_helmet"
+  ]
+}
