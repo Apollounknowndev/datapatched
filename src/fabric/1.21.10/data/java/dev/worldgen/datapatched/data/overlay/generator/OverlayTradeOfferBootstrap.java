@@ -2,6 +2,7 @@ package dev.worldgen.datapatched.data.overlay.generator;
 
 import dev.worldgen.datapatched.api.DatapatchedRegistries;
 import dev.worldgen.datapatched.api.trade.TradeOffer;
+import dev.worldgen.datapatched.data.overlay.generator.offer.CartographerOffers;
 import dev.worldgen.datapatched.data.overlay.generator.offer.WanderingTraderOffers;
 import dev.worldgen.datapatched.impl.Datapatched;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -11,6 +12,7 @@ import net.minecraft.world.level.ItemLike;
 
 public class OverlayTradeOfferBootstrap {
     public static void bootstrap(BootstrapContext<TradeOffer> context) {
+        CartographerOffers.bootstrap(context);
         WanderingTraderOffers.bootstrap(context);
     }
 

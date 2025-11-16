@@ -25,26 +25,41 @@ public class BaseTagsProvider extends FabricTagProvider<TradeOffer> {
         tag(key("wandering_trader/special")).addTag(key("wandering_trader/special_overlay")).addAll(WanderingTraderOffers.SPECIAL_OFFERS);
         tag(key("wandering_trader/normal_overlay"));
         tag(key("wandering_trader/special_overlay"));
+
+        tag(key("cartographer/novice_overlay"));
+        tag(key("cartographer/apprentice_overlay"));
+        tag(key("cartographer/journeyman_overlay"));
+        tag(key("cartographer/expert_overlay"));
+        tag(key("cartographer/master_overlay"));
+
         tag(key("fletcher/tipped_arrow")).addAll(FletcherOffers.TIPPED_ARROWS);
 
         base("armorer", ArmorerOffers.OFFERS);
         base("butcher", ArmorerOffers.OFFERS);
-        base("cartographer", CartographerOffers.OFFERS);
+        base("cartographer", CartographerOffers.OFFERS, true);
         base("cleric", ClericOffers.OFFERS);
         base("farmer", FarmerOffers.OFFERS);
         base("fisherman", FishermanOffers.OFFERS);
         base("fletcher", FletcherOffers.OFFERS);
         base("leatherworker", LeatherworkerOffers.OFFERS);
         base("librarian", LibrarianOffers.OFFERS);
+        base("mason", MasonOffers.OFFERS);
         base("shepherd", ShepherdOffers.OFFERS);
         base("toolsmith", ToolsmithOffers.OFFERS);
         base("weaponsmith", WeaponsmithOffers.OFFERS);
     }
 
     private void base(String profession, List<List<ResourceKey<TradeOffer>>> offers) {
+        base(profession, offers, false);
+    }
+
+    private void base(String profession, List<List<ResourceKey<TradeOffer>>> offers, boolean withOverlay) {
         for (int level = 0; level < 5; level++) {
             String name = TradeOfferBuilder.LEVEL_TO_NAME.get(level);
-            tag(key(profession + "/" + name)).addAll(offers.get(level));
+            var appender = tag(key(profession + "/" + name)).addAll(offers.get(level));
+            if (withOverlay) {
+                appender.addTag(key(profession + "/" + name + "_overlay"));
+            }
         }
     }
 
