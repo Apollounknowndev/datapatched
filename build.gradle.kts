@@ -19,7 +19,7 @@ repositories {
 }
 
 group = "dev.worldgen"
-version = "1.0.0"
+version = "2.0.0"
 
 cloche {
     mappings {
@@ -29,7 +29,7 @@ cloche {
     metadata {
         modId = "datapatched"
         name = "Datapatched"
-        description = "A library mod with a simple cross-loader loot modifier format."
+        description = "A library mod focused on data-driven features with a simple cross-loader loot modifier and villager trade format."
         license = "MIT"
         icon = "pack.png"
 
@@ -64,7 +64,9 @@ cloche {
         runs {
             client()
             server()
-            data()
+            data {
+                mixins.from(file("src/fabric/1.21.1/data/datapatched_datagen.mixins.json"))
+            }
         }
         data()
 
@@ -120,7 +122,6 @@ cloche {
         runs {
             client()
             server()
-            data()
         }
     }
 
@@ -135,7 +136,6 @@ cloche {
         runs {
             client()
             server()
-            data()
         }
     }
 }

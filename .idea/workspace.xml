@@ -4,604 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe28feff-e22b-494a-ae5d-d85e05a48c48" name="Changes" comment="Minor restructuring">
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/.cache/74236de914a25a72dea9af9f2d5141b581a897c3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/.cache/e476f585b6ca6d8cf2088ad529566224825da42f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/apprentice/buy_iron_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_bell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_chainmail_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_chainmail_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/expert/sell_enchanted_diamond_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/expert/sell_enchanted_diamond_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/journeyman/buy_diamond.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/journeyman/buy_lava_bucket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/journeyman/sell_chainmail_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/journeyman/sell_chainmail_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/journeyman/sell_shield.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/master/sell_enchanted_diamond_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/master/sell_enchanted_diamond_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/novice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/novice/sell_iron_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/novice/sell_iron_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/novice/sell_iron_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/armorer/novice/sell_iron_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/apprentice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/apprentice/sell_cooked_chicken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/apprentice/sell_cooked_porkchop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/expert/buy_dried_kelp_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/journeyman/buy_beef.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/journeyman/buy_mutton.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/master/buy_sweet_berries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/novice/buy_chicken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/novice/buy_porkchop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/novice/buy_rabbit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/butcher/novice/sell_rabbit_stew.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/apprentice/buy_glass_pane.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_ocean_explorer_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_black_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_blue_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_brown_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_cyan_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_gray_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_green_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_item_frame.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_light_blue_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_light_gray_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_lime_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_magenta_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_orange_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_pink_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_purple_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_red_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_white_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_yellow_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/journeyman/buy_compass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/journeyman/sell_trial_chambers_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/journeyman/sell_woodland_explorer_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/master/sell_globe_banner_pattern.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/novice/buy_paper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cartographer/novice/sell_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/apprentice/buy_gold_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/apprentice/sell_lapis_lazuli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/expert/buy_glass_bottle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/expert/buy_turtle_scute.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/expert/sell_ender_pearl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/journeyman/buy_rabbit_foot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/journeyman/sell_glowstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/master/buy_nether_wart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/master/sell_experience_bottle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/novice/buy_rotten_flesh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/cleric/novice/sell_redstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/apprentice/buy_pumpkin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/apprentice/sell_apple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/apprentice/sell_pumpkin_pie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_cake.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_blindness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_jump_boost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_night_vision.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_poison.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_saturation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/expert/sell_suspicious_stew_weakness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/journeyman/buy_melon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/journeyman/sell_cookie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/master/sell_glistering_melon_slice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/master/sell_golden_carrot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/novice/buy_beetroot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/novice/buy_carrot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/novice/buy_potato.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/novice/buy_wheat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/farmer/novice/sell_bread.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/apprentice/buy_cod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/apprentice/cook_salmon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/apprentice/sell_campfire.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/expert/buy_tropical_fish.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/journeyman/buy_enchanted_fishing_rod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/journeyman/buy_salmon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/master/buy_boat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/master/buy_pufferfish.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/novice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/novice/buy_string.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/novice/cook_cod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fisherman/novice/sell_cod_bucket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/apprentice/buy_flint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/apprentice/sell_bow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/expert/buy_feather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/expert/sell_enchanted_bow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/journeyman/buy_string.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/journeyman/sell_crossbow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/buy_tripwire_hook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/sell_enchanted_crossbow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/sell_tipped_arrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/fire_resistance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/harming.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/healing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/infested.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/invisibility.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/leaping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_fire_resistance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_invisibility.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_leaping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_night_vision.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_poison.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_regeneration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_slow_falling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_slowness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_strength.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_swiftness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_turtle_master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_water_breathing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/long_weakness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/night_vision.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/oozing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/poison.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/regeneration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/slow_falling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/slowness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strength.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_harming.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_healing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_leaping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_poison.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_regeneration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_slowness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_strength.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_swiftness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/strong_turtle_master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/swiftness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/turtle_master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/water_breathing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/weakness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/weaving.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/master/tipped_arrow/wind_charged.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/novice/break_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/novice/buy_stick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/fletcher/novice/sell_arrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/apprentice/buy_flint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/apprentice/sell_leather_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/apprentice/sell_leather_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/expert/buy_turtle_scute.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/expert/sell_leather_horse_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/journeyman/buy_rabbit_hide.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/journeyman/sell_leather_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/master/sell_leather_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/master/sell_saddle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/novice/buy_leather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/novice/sell_leather_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/leatherworker/novice/sell_leather_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/apprentice/buy_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/apprentice/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/apprentice/sell_lantern.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/expert/buy_writable_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/expert/sell_clock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/expert/sell_compass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/expert/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/journeyman/buy_ink_sac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/journeyman/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/journeyman/sell_glass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/master/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/master/sell_name_tag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/novice/buy_paper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/novice/sell_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/librarian/novice/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/apprentice/buy_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/apprentice/sell_chiseled_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/buy_quartz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_black_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_black_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_blue_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_blue_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_brown_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_brown_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_cyan_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_cyan_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_gray_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_gray_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_green_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_green_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_light_blue_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_light_blue_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_light_gray_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_light_gray_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_lime_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_lime_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_magenta_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_magenta_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_orange_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_orange_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_pink_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_pink_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_purple_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_purple_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_red_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_red_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_white_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_white_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_yellow_glazed_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/expert/sell_yellow_terracotta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/buy_andesite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/buy_diorite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/buy_granite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/sell_dripstone_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/sell_polished_andesite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/sell_polished_diorite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/journeyman/sell_polished_granite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/master/sell_quartz_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/master/sell_quartz_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/novice/buy_clay_ball.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/mason/novice/sell_brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/buy_black_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/buy_gray_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/buy_light_blue_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/buy_lime_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/buy_white_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_black_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_black_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_blue_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_blue_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_brown_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_brown_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_cyan_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_cyan_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_gray_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_gray_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_green_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_green_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_light_blue_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_light_blue_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_light_gray_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_light_gray_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_lime_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_lime_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_magenta_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_magenta_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_orange_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_orange_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_pink_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_pink_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_purple_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_purple_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_red_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_red_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_white_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_white_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_yellow_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/apprentice/sell_yellow_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_blue_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_brown_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_cyan_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_green_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_magenta_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/buy_purple_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_black_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_blue_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_brown_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_cyan_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_gray_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_green_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_light_blue_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_light_gray_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_lime_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_magenta_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_orange_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_pink_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_purple_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_red_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_white_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/expert/sell_yellow_banner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/buy_light_gray_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/buy_orange_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/buy_pink_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/buy_red_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/buy_yellow_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_black_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_blue_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_brown_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_cyan_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_gray_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_green_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_light_blue_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_light_gray_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_lime_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_magenta_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_orange_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_pink_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_purple_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_red_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_white_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/journeyman/sell_yellow_bed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/master/sell_painting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/novice/buy_black_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/novice/buy_brown_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/novice/buy_gray_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/novice/buy_white_wool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/shepherd/novice/sell_shears.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/apprentice/buy_iron_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/apprentice/sell_bell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/expert/buy_diamond.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/expert/sell_enchanted_diamond_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/expert/sell_enchanted_diamond_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/journeyman/buy_flint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/journeyman/sell_diamond_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/journeyman/sell_enchanted_stone_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/journeyman/sell_enchanted_stone_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/journeyman/sell_enchanted_stone_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/master/sell_enchanted_diamond_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/novice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/novice/sell_stone_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/novice/sell_stone_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/novice/sell_stone_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/toolsmith/novice/sell_stone_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_acacia_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_allium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_azure_bluet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_beetroot_seeds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_birch_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_black_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_blue_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_blue_orchid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_brain_coral_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_brown_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_brown_mushroom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_bubble_coral_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_cactus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_cherry_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_cornflower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_cyan_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_dandelion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_dark_oak_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_fern.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_fire_coral_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_glowstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_gray_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_green_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_horn_coral_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_jungle_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_kelp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_light_blue_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_light_gray_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_lily_of_the_valley.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_lily_pad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_lime_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_magenta_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_mangrove_propagule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_melon_seeds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_moss_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_nautilus_shell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_oak_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_orange_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_orange_tulip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_oxeye_daisy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pink_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pink_tulip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pointed_dripstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_poppy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pumpkin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pumpkin_seeds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_purple_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_red_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_red_mushroom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_red_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_red_tulip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_rooted_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_sea_pickle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_slime_ball.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_small_dripleaf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_spruce_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_sugar_cane.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_tube_coral_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_vine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_wheat_seeds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_white_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_white_tulip.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_yellow_dye.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_blue_ice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_gunpowder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_packed_ice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_podzol.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_pufferfish_bucket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_tropical_fish_bucket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/apprentice/buy_iron_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/apprentice/sell_bell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/expert/buy_diamond.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/expert/sell_enchanted_diamond_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/journeyman/buy_flint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/master/sell_enchanted_diamond_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/novice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/novice/sell_enchanted_iron_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer/weaponsmith/novice/sell_iron_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/armorer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/butcher.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/cartographer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/cleric.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/farmer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/fisherman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/fletcher.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/leatherworker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/librarian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/mason.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/shepherd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/toolsmith.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/wandering_trader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/datapatched/trade_offer_provider/weaponsmith.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/armorer/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/armorer/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/armorer/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/armorer/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/armorer/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/butcher/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/butcher/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/butcher/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/butcher/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/butcher/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/apprentice_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/expert_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/journeyman_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/master_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cartographer/novice_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cleric/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cleric/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cleric/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cleric/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/cleric/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/farmer/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/farmer/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/farmer/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/farmer/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/farmer/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fisherman/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fisherman/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fisherman/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fisherman/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fisherman/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/fletcher/tipped_arrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/leatherworker/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/leatherworker/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/leatherworker/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/leatherworker/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/leatherworker/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/librarian/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/librarian/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/librarian/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/librarian/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/librarian/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/mason/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/mason/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/mason/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/mason/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/mason/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/shepherd/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/shepherd/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/shepherd/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/shepherd/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/shepherd/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/toolsmith/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/toolsmith/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/toolsmith/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/toolsmith/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/toolsmith/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/wandering_trader/normal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/wandering_trader/normal_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/wandering_trader/special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/wandering_trader/special_overlay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/weaponsmith/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/weaponsmith/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/weaponsmith/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/weaponsmith/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/generated/data/datapatched/tags/datapatched/trade_offer/weaponsmith/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/java/dev/worldgen/datapatched/mixin/trade/ServerPacksSourceMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/apprentice/sell_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/expert/sell_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/expert/sell_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/expert/sell_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/expert/sell_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/journeyman/sell_bell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master/buy_ore_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master/sell_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master/sell_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master/sell_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master/sell_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/novice/buy_coal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/novice/buy_iron_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/librarian/apprentice/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/librarian/journeyman/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/librarian/master/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/librarian/novice/sell_enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/tags/datapatched/trade_offer/armorer/apprentice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/tags/datapatched/trade_offer/armorer/expert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/tags/datapatched/trade_offer/armorer/journeyman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/tags/datapatched/trade_offer/armorer/master.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/datapatched/tags/datapatched/trade_offer/armorer/novice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_chestplate_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_chestplate_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_leggings_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/desert_armorer_leggings_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_boots_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_chestplate_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_helmet_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/jungle_armorer_leggings_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_boots_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_chestplate_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_leggings_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/plains_armorer_leggings_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_chestplate_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_chestplate_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_helmet_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/savanna_armorer_leggings_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/snow_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/snow_armorer_boots_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/snow_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/snow_armorer_helmet_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_boots_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_boots_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_chestplate_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_helmet_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_helmet_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/swamp_armorer_leggings_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/taiga_armorer_chestplate_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/enchantment_provider/trades/taiga_armorer_leggings_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/loot_table/chests/abandoned_mineshaft.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/loot_table/chests/ancient_city.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/loot_table/chests/desert_pyramid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/loot_table/chests/jungle_temple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/loot_table/chests/pillager_outpost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/desert_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/desert_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/jungle_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/jungle_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/plains_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/plains_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/savanna_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/savanna_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/snow_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/snow_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/swamp_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/swamp_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/taiga_common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/enchantment/trades/taiga_special.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_desert_village_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_jungle_explorer_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_plains_village_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_savanna_village_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_snowy_village_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_swamp_explorer_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/data/minecraft/tags/worldgen/structure/on_taiga_village_maps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/overlay/data/minecraft/loot_table/chests/desert_pyramid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/overlay/data/minecraft/loot_table/chests/jungle_temple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/main/resources/trade_rebalance/pack.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neoforge/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedResourceSupplier.java" afterDir="false" />
+    <list default="true" id="fe28feff-e22b-494a-ae5d-d85e05a48c48" name="Changes" comment="Almost done">
+      <change afterPath="$PROJECT_DIR$/src/fabric/1.21.1/data/datapatched_datagen.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data/mixin/HashCacheMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neoforge/1.21.1/data/java/dev/worldgen/datapatched/data/DatapatchedDatagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neoforge/1.21.10/data/java/dev/worldgen/datapatched/data/DatapatchedDatagen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/main/datapatched.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/main/datapatched.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/main/java/dev/worldgen/datapatched/impl/Datapatched.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/main/java/dev/worldgen/datapatched/impl/Datapatched.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data/base/generator/offer/FishermanOffers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data/base/generator/offer/FishermanOffers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data/base/generator/offer/LibrarianOffers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data/base/generator/offer/LibrarianOffers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/.cache/4724d0e1f59e05805baa6ed9f5a4c5312f82a5d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/.cache/74236de914a25a72dea9af9f2d5141b581a897c3" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/main/generated/.cache/74236de914a25a72dea9af9f2d5141b581a897c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/.cache/b9ab1097df220b3bd2253ea6f0ad8df3813fa0ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/.cache/e476f585b6ca6d8cf2088ad529566224825da42f" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/main/generated/.cache/e476f585b6ca6d8cf2088ad529566224825da42f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_desert_village_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_jungle_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_ocean_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_plains_village_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_savanna_village_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_snowy_village_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_swamp_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/apprentice/sell_taiga_village_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_black_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_blue_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_brown_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_cyan_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_gray_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_green_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_light_blue_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_light_gray_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_lime_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_magenta_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_orange_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_pink_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_purple_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_red_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_white_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/expert/sell_yellow_banner.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/journeyman/sell_ocean_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/journeyman/sell_woodland_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/cartographer/master/sell_woodland_explorer_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_baked_potato.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_fermented_spider_eye.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_hay_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_milk_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_potion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/buying/buy_water_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_brown_mushroom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_lily_pad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_pufferfish_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_red_mushroom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_tropical_fish_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/normal/sell_vine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_acacia_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_birch_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_cherry_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_dark_oak_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_enchanted_iron_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_gunpowder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_jungle_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_mangrove_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_oak_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_packed_ice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_pale_oak_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_potion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_pufferfish_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_spruce_log.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer/wandering_trader/special/sell_tropical_fish_bucket.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/datapatched/trade_offer_provider/wandering_trader.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/apprentice_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/expert_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/journeyman_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/master_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/cartographer/novice_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/buying.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/normal_overlay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/main/generated/overlay/data/datapatched/tags/datapatched/trade_offer/wandering_trader/special_overlay.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fabric/1.21.1/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric/1.21.1/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fabric/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/neoforge/1.21.1/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neoforge/1.21.1/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neoforge/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neoforge/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedActual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neoforge/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedEntrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neoforge/1.21.10/main/java/dev/worldgen/datapatched/impl/DatapatchedEntrypoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploader.py" beforeDir="false" afterPath="$PROJECT_DIR$/uploader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -630,6 +110,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="datapatched" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="datapatched" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="datapatched" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -675,6 +166,7 @@
     "Gradle.lootpatched [:net.fabricmc.loader.impl.launch.knot.KnotClient.main()].executor": "Run",
     "Gradle.lootpatched [:net.fabricmc.loader.impl.launch.knot.KnotServer.main()].executor": "Run",
     "Gradle.lootpatched [:net.neoforged.fml.startup.Client.main()].executor": "Run",
+    "Gradle.lootpatched [build].executor": "Run",
     "Gradle.lootpatched [prepareDatagenDataRun].executor": "Run",
     "Gradle.lootpatched [prepareFabric12110ClientRun].executor": "Run",
     "Gradle.lootpatched [prepareFabric12110DataRun].executor": "Run",
@@ -688,7 +180,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ldglo/Documents/Github/lootpatched/src/common/main/resources/trade_rebalance/data/datapatched/datapatched/trade_offer/armorer/master",
+    "last_opened_file_path": "C:/Users/ldglo/Documents/Github/lootpatched/src/fabric/1.21.1/data/java/dev/worldgen/datapatched/data",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -697,11 +189,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\fabric\1.21.1\data\java\dev\worldgen\datapatched\data" />
+      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\fabric\1.21.1\data" />
+      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\neoforge\1.21.10\data\java" />
       <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data\datapatched\datapatched\trade_offer\armorer\master" />
       <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data\datapatched\datapatched\trade_offer\armorer\expert" />
-      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data\datapatched\datapatched\trade_offer\armorer" />
-      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data\datapatched\datapatched\trade_offer\armorer\journeyman" />
-      <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data\datapatched\datapatched\trade_offer\armorer\apprentice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\common\main\resources\trade_rebalance\data" />
@@ -710,14 +202,14 @@
       <recent name="C:\Users\ldglo\Documents\Github\lootpatched\src\datagen\data\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.worldgen.datapatched.impl" />
       <recent name="dev.worldgen.datapatched.mixin.trade" />
       <recent name="dev.worldgen.datapatched.data.experimental.generator" />
       <recent name="dev.worldgen.datapatched.data.experimental.generator.offer" />
       <recent name="dev.worldgen.datapatched.data.overlay" />
-      <recent name="dev.worldgen.datapatched.data.overlay.generator.offer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run :fabric:1.21.10:data">
+  <component name="RunManager" selected="Gradle.lootpatched [build]">
     <configuration name="Run :datagen:client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.fabricmc.loader.impl.launch.knot.KnotClient" />
       <module name="datapatched.datagen" />
@@ -898,6 +390,33 @@
         <option name="Gradle.BeforeRunTask" enabled="true" tasks="prepareNeoforge1211ServerRun" externalProjectPath="$PROJECT_DIR$" />
       </method>
     </configuration>
+    <configuration name="lootpatched [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.lootpatched [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1068,7 +587,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763265407323</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Almost done">
+      <option name="closed" value="true" />
+      <created>1763291201857</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1763291201857</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Almost done">
+      <option name="closed" value="true" />
+      <created>1763291239431</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1763291239431</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -1090,6 +625,7 @@
     <MESSAGE value="Leatherworker" />
     <MESSAGE value="Mason, pre-rebalance Cartographer" />
     <MESSAGE value="Minor restructuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor restructuring" />
+    <MESSAGE value="Almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost done" />
   </component>
 </project>

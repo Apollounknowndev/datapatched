@@ -5,9 +5,10 @@ import json
 # Per-mod: Update this for each mod!!!
 
 MOD_ID = "datapatched"
-MOD_VERSION = "1.0.0"
+MOD_VERSION = "2.0.0"
 CHANGELOG = """
-Initial release.
+- **Added data-driven villager trades.**
+- Renamed the mod to Datapatched to reflect the increase on the mod's scope.
 """
 UPLOAD_VERSIONS = [
     ("fabric", "1.21.1"),

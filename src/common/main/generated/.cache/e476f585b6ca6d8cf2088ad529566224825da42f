@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-16T06:06:16.821964	Datapatched/Tags for datapatched:trade_offer
+// 1.21.1	2025-11-16T06:33:06.2176679	Datapatched/Tags for datapatched:trade_offer
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\datapatched\tags\datapatched\trade_offer\cartographer\journeyman_overlay.json
 a1cecf67117de6e1004774cd49be191e64aff9d4 data\datapatched\tags\datapatched\trade_offer\shepherd\journeyman.json
 a031da8fff17c61eb9cf3fb8e558382ded73632f data\datapatched\tags\datapatched\trade_offer\weaponsmith\apprentice.json
@@ -55,8 +55,8 @@ e8678485a2e95b0ccbe7197ee17f48323913df27 data\datapatched\tags\datapatched\trade
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\datapatched\tags\datapatched\trade_offer\cartographer\apprentice_overlay.json
 c63c04eb80fa87fc9f6f9507b59a4ed53cea9cf4 data\datapatched\tags\datapatched\trade_offer\toolsmith\novice.json
 0be4e6d1e955de5f97d630320c0e3b635e6f989a data\datapatched\tags\datapatched\trade_offer\farmer\apprentice.json
-b1957e3231520dcb5514786ba23ed9112904fe6c data\datapatched\tags\datapatched\trade_offer\armorer\journeyman.json
 a7157f2f63fa945c9abe2d2c7fc260b8760e9195 data\datapatched\tags\datapatched\trade_offer\armorer\apprentice.json
+b1957e3231520dcb5514786ba23ed9112904fe6c data\datapatched\tags\datapatched\trade_offer\armorer\journeyman.json
 171f34e9c13ec1a19761fd42fdc9fd87a6e3b22f data\datapatched\tags\datapatched\trade_offer\farmer\novice.json
 c3e4c39cf72895f0396cc53b18504cbf7498c695 data\datapatched\tags\datapatched\trade_offer\cleric\master.json
 6f23c559049c927925cc0d4d65ea7a9a85fe3094 data\datapatched\tags\datapatched\trade_offer\shepherd\master.json
