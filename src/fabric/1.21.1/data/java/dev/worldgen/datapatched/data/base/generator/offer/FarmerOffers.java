@@ -57,7 +57,7 @@ public class FarmerOffers {
         stack.set(DataComponents.SUSPICIOUS_STEW_EFFECTS, new SuspiciousStewEffects(List.of(new SuspiciousStewEffects.Entry(effect, duration))));
         return register(
             context,
-            name(4, "sell_suspicious_stew_" + effect.unwrapKey().get().location().getPath()),
+            name(4, "sell_suspicious_stew_" + effect.unwrapKey().get().identifier().getPath()),
             TradeOfferBuilder.itemsForEmeralds(stack, 1, 12, 15, 0.05f)
         );
     }

@@ -4,10 +4,10 @@
     "pack_format": 48,
     "supported_formats": [
       48,
-      88
+      99
     ],
     "min_format": 48,
-    "max_format": 88
+    "max_format": 99
   },
   "overlays": {
     "entries": [
@@ -15,19 +15,19 @@
         "directory": "none",
         "formats": [
           48,
-          88
+          99
         ],
         "min_format": 48,
-        "max_format": 88
+        "max_format": 99
       },
       {
         "directory": "overlay",
         "formats": [
           88,
-          88
+          99
         ],
         "min_format": 88,
-        "max_format": 88
+        "max_format": 99
       }
     ]
   }

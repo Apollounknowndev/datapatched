@@ -54,7 +54,7 @@ public class FletcherOffers {
         for (Holder.Reference<Potion> potion : getPotions()) {
             ItemStack stack = new ItemStack(Items.TIPPED_ARROW, 5);
             stack.set(DataComponents.POTION_CONTENTS, new PotionContents(potion));
-            TIPPED_ARROWS.add(register(context, name(5, "tipped_arrow/" + potion.key().location().getPath()), TradeOfferBuilder.itemsAndEmeraldsForItems(new ItemCost(Items.ARROW, 5), 2, stack, 12, 30)));
+            TIPPED_ARROWS.add(register(context, name(5, "tipped_arrow/" + potion.key().identifier().getPath()), TradeOfferBuilder.itemsAndEmeraldsForItems(new ItemCost(Items.ARROW, 5), 2, stack, 12, 30)));
         }
     }
 

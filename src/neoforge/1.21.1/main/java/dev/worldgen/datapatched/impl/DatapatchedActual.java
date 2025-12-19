@@ -3,8 +3,13 @@ package dev.worldgen.datapatched.impl;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.packs.PathPackResources;
 import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.VillagerTrades;
+import net.minecraft.world.item.trading.MerchantOffer;
 import net.msrandom.multiplatform.annotations.Actual;
 import net.neoforged.fml.ModList;
 
@@ -22,5 +27,10 @@ public class DatapatchedActual {
     public static Pack.ResourcesSupplier createTradeRebalanceSupplier() {
         Path resourcePath = ModList.get().getModFileById(MOD_ID).getFile().findResource("trade_rebalance");
         return new PathPackResources.PathResourcesSupplier(resourcePath);
+    }
+
+    @Actual
+    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, AbstractVillager merchant, RandomSource random) {
+        return listing.getOffer(merchant, random);
     }
 }

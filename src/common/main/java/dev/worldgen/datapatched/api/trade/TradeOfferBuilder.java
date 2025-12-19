@@ -11,7 +11,7 @@ import dev.worldgen.datapatched.impl.trade.offer.EnchantedItem;
 import dev.worldgen.datapatched.impl.trade.offer.TypeSpecific;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.entity.npc.VillagerType;
+import net.minecraft.world.entity.npc.villager.VillagerType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.ItemCost;

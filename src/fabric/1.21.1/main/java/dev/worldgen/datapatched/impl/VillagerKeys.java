@@ -2,8 +2,8 @@ package dev.worldgen.datapatched.impl;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.npc.VillagerType;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.entity.npc.villager.VillagerType;
 
 public class VillagerKeys {
     public static final ResourceKey<VillagerType> DESERT = type("desert");
@@ -15,6 +15,6 @@ public class VillagerKeys {
     public static final ResourceKey<VillagerType> TAIGA = type("taiga");
 
     private static ResourceKey<VillagerType> type(String $$0) {
-        return ResourceKey.create(Registries.VILLAGER_TYPE, ResourceLocation.withDefaultNamespace($$0));
+        return ResourceKey.create(Registries.VILLAGER_TYPE, Identifier.withDefaultNamespace($$0));
     }
 }

@@ -6,7 +6,7 @@ import dev.worldgen.datapatched.api.DatapatchedBuiltInRegistries;
 import dev.worldgen.datapatched.impl.loot.modifier.CommonData;
 import dev.worldgen.datapatched.mixin.loot.LootTableAccessor;
 import java.util.function.Function;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.storage.loot.LootTable;
 
 public interface LootModifier {
@@ -14,11 +14,11 @@ public interface LootModifier {
 
     CommonData commonData();
 
-    void apply(LootTable table, ResourceLocation key);
+    void apply(LootTable table, Identifier key);
 
     MapCodec<? extends LootModifier> codec();
 
-    default boolean tryApply(LootTable table, ResourceLocation id) {
+    default boolean tryApply(LootTable table, Identifier id) {
         if (this.commonData().target().test(id)) {
             this.apply(table, id);
             return true;

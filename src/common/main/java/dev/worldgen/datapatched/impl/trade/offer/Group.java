@@ -8,7 +8,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 import net.minecraft.core.HolderSet;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.npc.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
 import net.minecraft.world.item.trading.MerchantOffer;
 
 public record Group(HolderSet<TradeOffer> trades) implements TradeOffer {

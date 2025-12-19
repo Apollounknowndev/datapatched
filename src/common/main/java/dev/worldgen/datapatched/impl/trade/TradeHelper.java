@@ -8,15 +8,17 @@ import java.util.Arrays;
 import java.util.List;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.npc.AbstractVillager;
-import net.minecraft.world.entity.npc.VillagerData;
-import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.VillagerData;
+import net.minecraft.world.entity.npc.villager.VillagerTrades;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.item.trading.MerchantOffers;
 import net.msrandom.multiplatform.annotations.Expect;
 
 public class TradeHelper {
+    public static VillagerTrades.ItemListing[] NO_MODDED_TRADES = new VillagerTrades.ItemListing[]{};
+
     public static void addDatapatchedTrades(AbstractVillager entity, MerchantOffers tradeOfferList, TradeOfferProvider.TradeTier tradeTier, VillagerTrades.ItemListing[] moddedTierTrades) {
         HolderSet<TradeOffer> tradeSet = tradeTier.trades();
         int count = Math.min(tradeTier.count(), tradeSet.size() + moddedTierTrades.length);
@@ -39,7 +41,7 @@ public class TradeHelper {
 
     }
 
-    @Expect public static ResourceLocation getProfession(VillagerData data);
-    @Expect public static ResourceLocation getType(VillagerData data);
+    @Expect public static Identifier getProfession(VillagerData data);
+    @Expect public static Identifier getType(VillagerData data);
     @Expect public static int getLevel(VillagerData data);
 }

@@ -5,8 +5,7 @@ import dev.worldgen.datapatched.impl.trade.TradeHelper;
 import dev.worldgen.datapatched.impl.trade.provider.TradeOfferProvider;
 import java.util.Optional;
 
-import net.minecraft.world.entity.npc.VillagerTrades;
-import net.minecraft.world.entity.npc.WanderingTrader;
+import net.minecraft.world.entity.npc.wanderingtrader.WanderingTrader;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -25,7 +24,7 @@ public abstract class WanderingTraderMixin {
         Optional<TradeOfferProvider> tradeProvider = TradeOfferProvider.getProvider($this.registryAccess(), Datapatched.id("wandering_trader"));
         if (tradeProvider.isPresent()) {
             for(TradeOfferProvider.TradeTier tradeTier : tradeProvider.get().tiers()) {
-                TradeHelper.addDatapatchedTrades($this, $this.getOffers(), tradeTier, new VillagerTrades.ItemListing[]{});
+                TradeHelper.addDatapatchedTrades($this, $this.getOffers(), tradeTier, TradeHelper.NO_MODDED_TRADES);
             }
 
             ci.cancel();

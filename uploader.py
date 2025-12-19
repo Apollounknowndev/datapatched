@@ -5,16 +5,15 @@ import json
 # Per-mod: Update this for each mod!!!
 
 MOD_ID = "datapatched"
-MOD_VERSION = "2.0.0"
+MOD_VERSION = "2.0.2"
 CHANGELOG = """
-- **Added data-driven villager trades.**
-- Renamed the mod to Datapatched to reflect the increase on the mod's scope.
+- Update to 1.21.11.
 """
 UPLOAD_VERSIONS = [
-    ("fabric", "1.21.1"),
-    ("neoforge", "1.21.1"),
-    ("fabric", "1.21.10"),
-    ("neoforge", "1.21.10"),
+    #("fabric", "1.21.1"),
+    #("neoforge", "1.21.1"),
+    ("fabric", "1.21.11"),
+    #("neoforge", "1.21.11"),
 ]
 
 MODRINTH_ID = "7XXwJbHD"
@@ -36,9 +35,8 @@ if not CURSEFORGE_TOKEN:
     raise EnvironmentError("CURSEFORGE_TOKEN is unset!")
 CURSEFORGE_URL = f"https://minecraft.curseforge.com/api/v1/projects/{CURSEFORGE_ID}/upload-file"
 CURSEFORGE_GAME_VERSIONS = {
-    "1.20.1": [9990],
     "1.21.1": [11779],
-    "1.21.10": [13927, 13964],
+    "1.21.11": [14406],
 }
 CURSEFORGE_LOADERS = {
     "fabric": 7499,

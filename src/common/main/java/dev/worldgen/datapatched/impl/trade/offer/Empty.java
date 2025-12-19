@@ -4,7 +4,7 @@ import com.mojang.serialization.MapCodec;
 import dev.worldgen.datapatched.api.trade.TradeOffer;
 import java.util.List;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.npc.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
 import net.minecraft.world.item.trading.MerchantOffer;
 
 public record Empty() implements TradeOffer {

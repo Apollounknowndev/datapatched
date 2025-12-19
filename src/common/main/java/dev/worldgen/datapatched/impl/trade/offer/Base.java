@@ -7,7 +7,7 @@ import dev.worldgen.datapatched.api.trade.SimpleTradeOffer;
 import dev.worldgen.datapatched.api.trade.TradeOffer;
 import java.util.Optional;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.npc.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.level.storage.loot.LootContext;

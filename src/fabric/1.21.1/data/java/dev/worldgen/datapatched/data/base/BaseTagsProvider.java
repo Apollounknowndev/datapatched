@@ -66,4 +66,9 @@ public class BaseTagsProvider extends FabricTagProvider<TradeOffer> {
     public static TagKey<TradeOffer> key(String name) {
         return TagKey.create(DatapatchedRegistries.TRADE_OFFER, Datapatched.id(name));
     }
+
+    @Override
+    public String getName() {
+        return "Base tags for datapatched:trade_offer";
+    }
 }

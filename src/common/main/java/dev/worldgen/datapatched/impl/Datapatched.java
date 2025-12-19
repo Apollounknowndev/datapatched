@@ -21,10 +21,13 @@ import java.util.function.BiConsumer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.npc.villager.VillagerTrades;
+import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.storage.loot.functions.LootItemFunctionType;
-import net.msrandom.multiplatform.annotations.Actual;
 import net.msrandom.multiplatform.annotations.Expect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,8 +42,11 @@ public class Datapatched {
     @Expect
     public static Pack.ResourcesSupplier createTradeRebalanceSupplier();
 
-    public static ResourceLocation id(String name) {
-        return ResourceLocation.fromNamespaceAndPath("datapatched", name);
+    @Expect
+    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, AbstractVillager merchant, RandomSource random);
+
+    public static Identifier id(String name) {
+        return Identifier.fromNamespaceAndPath("datapatched", name);
     }
 
     public static <T> ResourceKey<T> key(ResourceKey<? extends Registry<T>> resourceKey, String name) {

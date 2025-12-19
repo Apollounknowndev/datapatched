@@ -10,7 +10,7 @@ import java.util.Optional;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.RegistryCodecs;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.util.ExtraCodecs;
 
 public record TradeOfferProvider(List<TradeTier> tiers, boolean overrideModdedTrades) {
@@ -23,9 +23,9 @@ public record TradeOfferProvider(List<TradeTier> tiers, boolean overrideModdedTr
         this(tiers, false);
     }
 
-    public static Optional<TradeOfferProvider> getProvider(RegistryAccess registries, ResourceLocation id) {
+    public static Optional<TradeOfferProvider> getProvider(RegistryAccess registries, Identifier id) {
         if (id.getNamespace().equals("minecraft")) {
-            id = ResourceLocation.fromNamespaceAndPath("datapatched", id.getPath());
+            id = Identifier.fromNamespaceAndPath("datapatched", id.getPath());
         }
         return Datapatched.registry(registries, DatapatchedRegistries.TRADE_OFFER_PROVIDER).getOptional(id);
     }

@@ -11,7 +11,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.WritableRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.RegistryOps;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.ReloadableServerRegistries;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.level.storage.loot.LootDataType;
@@ -52,7 +52,7 @@ public class ReloadableServerRegistriesMixin {
             ArrayList<Holder.Reference<LootModifier>> modifiers = new ArrayList<>(lookup.listElements().toList());
             modifiers.sort(Comparator.comparingInt(holder -> holder.value().commonData().priority()));
 
-            for (ResourceLocation id : registry.keySet()) {
+            for (Identifier id : registry.keySet()) {
                 LootTable table = (LootTable) registry.getOptional(id).get();
                 for (Holder.Reference<LootModifier> modifier : modifiers) {
                     modifier.value().tryApply(table, id);

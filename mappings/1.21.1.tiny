@@ -1,0 +1,26 @@
+tiny	2	0	official	named
+c	ad	net/minecraft/util/Util
+c	akq	net/minecraft/resources/ResourceKey
+	m	()Lakr;	a	identifier
+c	akr	net/minecraft/resources/Identifier
+c	cmf	net/minecraft/world/entity/npc/villager/AbstractVillager
+c	cmk	net/minecraft/world/entity/npc/villager/Villager
+c	cml	net/minecraft/world/entity/npc/villager/VillagerData
+c	cmm	net/minecraft/world/entity/npc/villager/VillagerDataHolder
+c	cmn	net/minecraft/world/entity/npc/villager/VillagerProfession
+c	cmo	net/minecraft/world/entity/npc/villager/VillagerTrades
+c	cmo$a	net/minecraft/world/entity/npc/villager/VillagerTrades$DyedArmorForEmeralds
+c	cmo$b	net/minecraft/world/entity/npc/villager/VillagerTrades$EmeraldForItems
+c	cmo$c	net/minecraft/world/entity/npc/villager/VillagerTrades$EmeraldsForVillagerTypeItem
+c	cmo$d	net/minecraft/world/entity/npc/villager/VillagerTrades$EnchantBookForEmeralds
+c	cmo$e	net/minecraft/world/entity/npc/villager/VillagerTrades$EnchantedItemForEmeralds
+c	cmo$f	net/minecraft/world/entity/npc/villager/VillagerTrades$FailureItemListing
+c	cmo$g	net/minecraft/world/entity/npc/villager/VillagerTrades$ItemListing
+c	cmo$h	net/minecraft/world/entity/npc/villager/VillagerTrades$ItemsAndEmeraldsToItems
+c	cmo$i	net/minecraft/world/entity/npc/villager/VillagerTrades$ItemsForEmeralds
+c	cmo$j	net/minecraft/world/entity/npc/villager/VillagerTrades$SuspiciousStewForEmerald
+c	cmo$k	net/minecraft/world/entity/npc/villager/VillagerTrades$TippedArrowForItemsAndEmeralds
+c	cmo$l	net/minecraft/world/entity/npc/villager/VillagerTrades$TreasureMapForEmeralds
+c	cmo$m	net/minecraft/world/entity/npc/villager/VillagerTrades$TypeSpecificTrade
+c	cmp	net/minecraft/world/entity/npc/villager/VillagerType
+c	cmq	net/minecraft/world/entity/npc/wanderingtrader/WanderingTrader

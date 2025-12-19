@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "2.1.0"
-    id("earth.terrarium.cloche") version "0.16.10"
+    id("earth.terrarium.cloche") version "0.16.20"
 }
 
 repositories {
@@ -19,11 +19,16 @@ repositories {
 }
 
 group = "dev.worldgen"
-version = "2.0.0"
+version = "2.0.2"
 
 cloche {
-    mappings {
-        official()
+    targets.all {
+        mappings {
+            official()
+            custom(minecraftVersion.map {
+                project.dependencies.create(files("mappings/$it.tiny"))
+            })
+        }
     }
 
     metadata {
@@ -47,7 +52,7 @@ cloche {
     }
 
     val shared1211 = common("shared:1.21.1")
-    val shared12110 = common("shared:1.21.10")
+    val shared12111 = common("shared:1.21.11")
 
     fabric("fabric:1.21.1") {
         dependsOn(shared1211)
@@ -80,15 +85,15 @@ cloche {
         }
     }
 
-    fabric("fabric:1.21.10") {
-        dependsOn(shared12110)
+    fabric("fabric:1.21.11") {
+        dependsOn(shared12111)
 
-        loaderVersion = "0.17.3"
-        minecraftVersion = "1.21.10"
+        loaderVersion = "0.18.2"
+        minecraftVersion = "1.21.11"
         datagenDirectory = file("src/common/main/generated")
 
         dependencies {
-            fabricApi("0.138.0")
+            fabricApi("0.139.4")
         }
 
         includedClient()
@@ -96,7 +101,7 @@ cloche {
             client()
             server()
             data {
-                mixins.from(file("src/fabric/1.21.10/data/datapatched_datagen.mixins.json"))
+                mixins.from(file("src/fabric/1.21.11/data/datapatched_datagen.mixins.json"))
             }
         }
         data()
@@ -125,8 +130,8 @@ cloche {
         }
     }
 
-    neoforge("neoforge:1.21.10") {
-        dependsOn(shared12110)
+    /*neoforge("neoforge:1.21.10") {
+        dependsOn(shared12111)
 
         loaderVersion = "21.10.49-beta"
         minecraftVersion = "1.21.10"
@@ -137,5 +142,5 @@ cloche {
             client()
             server()
         }
-    }
+    }*/
 }

@@ -5,13 +5,14 @@ import dev.worldgen.datapatched.impl.trade.provider.TradeOfferProvider;
 import java.util.Optional;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMaps;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.npc.Villager;
-import net.minecraft.world.entity.npc.VillagerData;
-import net.minecraft.world.entity.npc.VillagerProfession;
-import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.entity.npc.villager.Villager;
+import net.minecraft.world.entity.npc.villager.VillagerData;
+import net.minecraft.world.entity.npc.villager.VillagerProfession;
+import net.minecraft.world.entity.npc.villager.VillagerTrades;
 import net.minecraft.world.flag.FeatureFlags;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -28,10 +29,10 @@ public abstract class VillagerMixin {
     private void sellcraft$injectSellcraftTrades(CallbackInfo ci) {
         Villager $this = (Villager) (Object) this;
         VillagerData data = $this.getVillagerData();
-        ResourceLocation id = TradeHelper.getProfession(data);
+        Identifier id = TradeHelper.getProfession(data);
 
         ResourceKey<VillagerProfession> profession = ResourceKey.create(Registries.VILLAGER_PROFESSION, id);
-        Optional<TradeOfferProvider> optional = TradeOfferProvider.getProvider($this.registryAccess(), profession.location());
+        Optional<TradeOfferProvider> optional = TradeOfferProvider.getProvider($this.registryAccess(), profession.identifier());
         if (optional.isEmpty()) return;
 
         TradeOfferProvider provider = optional.get();
@@ -46,7 +47,7 @@ public abstract class VillagerMixin {
                 } else {
                     moddedFullTrades = (Int2ObjectMap<VillagerTrades.ItemListing[]>) VillagerTrades.TRADES.get(profession);
                 }
-                moddedTierTrades = moddedFullTrades.get(level);
+                moddedTierTrades = moddedFullTrades == null ? TradeHelper.NO_MODDED_TRADES : moddedFullTrades.getOrDefault(level, TradeHelper.NO_MODDED_TRADES);
             }
 
             TradeOfferProvider.TradeTier tradeTier = provider.tiers().get(level - 1);
