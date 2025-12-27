@@ -1,19 +1,15 @@
 package dev.worldgen.datapatched.mixin.trade;
 
 import dev.worldgen.datapatched.impl.trade.TradeHelper;
-import dev.worldgen.datapatched.impl.trade.provider.TradeOfferProvider;
-import java.util.Optional;
+import dev.worldgen.datapatched.impl.trade.TradeSet;
 
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
-import it.unimi.dsi.fastutil.ints.Int2ObjectMaps;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.npc.villager.Villager;
 import net.minecraft.world.entity.npc.villager.VillagerData;
 import net.minecraft.world.entity.npc.villager.VillagerProfession;
-import net.minecraft.world.entity.npc.villager.VillagerTrades;
-import net.minecraft.world.flag.FeatureFlags;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -31,29 +27,12 @@ public abstract class VillagerMixin {
         VillagerData data = $this.getVillagerData();
         Identifier id = TradeHelper.getProfession(data);
 
-        ResourceKey<VillagerProfession> profession = ResourceKey.create(Registries.VILLAGER_PROFESSION, id);
-        Optional<TradeOfferProvider> optional = TradeOfferProvider.getProvider($this.registryAccess(), profession.identifier());
-        if (optional.isEmpty()) return;
-
-        TradeOfferProvider provider = optional.get();
-        int level = TradeHelper.getLevel(data);
-        if (level <= provider.tiers().size()) {
-            VillagerTrades.ItemListing[] moddedTierTrades = new VillagerTrades.ItemListing[]{};
-            if (!provider.overrideModdedTrades()) {
-                Int2ObjectMap<VillagerTrades.ItemListing[]> moddedFullTrades;
-                if ($this.level().enabledFeatures().contains(FeatureFlags.TRADE_REBALANCE)) {
-                    Int2ObjectMap<VillagerTrades.ItemListing[]> experimentalModdedTrades = (Int2ObjectMap<VillagerTrades.ItemListing[]>) VillagerTrades.EXPERIMENTAL_TRADES.get(profession);
-                    moddedFullTrades = experimentalModdedTrades != null ? experimentalModdedTrades : (Int2ObjectMap<VillagerTrades.ItemListing[]>) VillagerTrades.TRADES.get(profession);
-                } else {
-                    moddedFullTrades = (Int2ObjectMap<VillagerTrades.ItemListing[]>) VillagerTrades.TRADES.get(profession);
-                }
-                moddedTierTrades = moddedFullTrades == null ? TradeHelper.NO_MODDED_TRADES : moddedFullTrades.getOrDefault(level, TradeHelper.NO_MODDED_TRADES);
-            }
-
-            TradeOfferProvider.TradeTier tradeTier = provider.tiers().get(level - 1);
-            TradeHelper.addDatapatchedTrades($this, $this.getOffers(), tradeTier, moddedTierTrades);
-            ci.cancel();
+        var level = $this.level();
+        if (level instanceof ServerLevel serverLevel) {
+            // Find villager profession and associated trade set
+            ResourceKey<VillagerProfession> profession = ResourceKey.create(Registries.VILLAGER_PROFESSION, id);
+            boolean bl = TradeSet.addOffers(serverLevel, $this, profession, TradeHelper.getLevel(data), id.withSuffix("/level_" + TradeHelper.getLevel(data)));
+            if (bl) ci.cancel();
         }
-
     }
 }

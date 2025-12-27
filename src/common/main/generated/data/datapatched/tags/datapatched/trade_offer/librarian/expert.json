@@ -1,8 +1,0 @@
-{
-  "values": [
-    "datapatched:librarian/expert/buy_writable_book",
-    "datapatched:librarian/expert/sell_enchanted_book",
-    "datapatched:librarian/expert/sell_clock",
-    "datapatched:librarian/expert/sell_compass"
-  ]
-}

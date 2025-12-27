@@ -1,0 +1,39 @@
+{
+  "given_item_modifiers": [
+    {
+      "add": false,
+      "enchantments": {
+        "minecraft:projectile_protection": 1.0
+      },
+      "function": "minecraft:set_enchantments"
+    },
+    {
+      "function": "datapatched:filtered",
+      "item_filter": {
+        "items": "minecraft:chainmail_helmet",
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "levels": 1
+            }
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "count": 1,
+    "id": "minecraft:chainmail_helmet"
+  },
+  "max_uses": 3.0,
+  "merchant_predicate": {"condition":"datapatched:villager_type","types":"minecraft:jungle"},
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 9.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

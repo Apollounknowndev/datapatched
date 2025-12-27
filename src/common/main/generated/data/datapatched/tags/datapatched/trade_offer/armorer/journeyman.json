@@ -1,9 +1,0 @@
-{
-  "values": [
-    "datapatched:armorer/journeyman/buy_lava_bucket",
-    "datapatched:armorer/journeyman/buy_diamond",
-    "datapatched:armorer/journeyman/sell_chainmail_helmet",
-    "datapatched:armorer/journeyman/sell_chainmail_chestplate",
-    "datapatched:armorer/journeyman/sell_shield"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "values": [
-    "datapatched:shepherd/novice/buy_white_wool",
-    "datapatched:shepherd/novice/buy_brown_wool",
-    "datapatched:shepherd/novice/buy_black_wool",
-    "datapatched:shepherd/novice/buy_gray_wool",
-    "datapatched:shepherd/novice/sell_shears"
-  ]
-}

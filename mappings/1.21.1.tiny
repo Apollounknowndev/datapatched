@@ -24,3 +24,7 @@ c	cmo$l	net/minecraft/world/entity/npc/villager/VillagerTrades$TreasureMapForEme
 c	cmo$m	net/minecraft/world/entity/npc/villager/VillagerTrades$TypeSpecificTrade
 c	cmp	net/minecraft/world/entity/npc/villager/VillagerType
 c	cmq	net/minecraft/world/entity/npc/wanderingtrader/WanderingTrader
+c	cs	net/minecraft/advancements/criterion/ItemPredicate
+c	ct	net/minecraft/advancements/criterion/ItemSubPredicate
+c	ct$a	net/minecraft/advancements/criterion/ItemSubPredicate$Type
+c	ko	net/minecraft/core/component/DataComponentExactPredicate

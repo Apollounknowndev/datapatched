@@ -3,21 +3,13 @@ package dev.worldgen.datapatched.impl;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.server.packs.CompositePackResources;
-import net.minecraft.server.packs.PackLocationInfo;
-import net.minecraft.server.packs.PackResources;
 import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.npc.villager.VillagerTrades;
+import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.msrandom.multiplatform.annotations.Actual;
-import net.neoforged.fml.ModList;
-import net.neoforged.fml.jarcontents.JarContents;
-import net.neoforged.neoforge.resource.JarContentsPackResources;
-import net.neoforged.neoforgespi.language.IModInfo;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.BiFunction;
-
-import static dev.worldgen.datapatched.impl.Datapatched.MOD_ID;
 
 public class DatapatchedActual {
     @Actual
@@ -31,7 +23,12 @@ public class DatapatchedActual {
     }
 
     @Actual
-    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, AbstractVillager merchant, RandomSource random) {
-        return listing.getOffer((ServerLevel) merchant.level(), merchant, random);
+    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, LootContext context) {
+        return listing.getOffer(context.getLevel(), context.getParameter(LootContextParams.THIS_ENTITY), context.getRandom());
+    }
+
+    @Actual
+    public static Entity getEntity(LootContext context) {
+        return context.getOptionalParameter(LootContextParams.THIS_ENTITY);
     }
 }

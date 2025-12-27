@@ -137,7 +137,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "function": "datapatched:enchant_with_levels",
               "levels": 30.0,
               "options": "#minecraft:on_random_loot"
             }
@@ -182,7 +182,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "minecraft:unbreaking"
             }
           ],

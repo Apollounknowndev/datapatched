@@ -74,7 +74,7 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_with_levels",
+              "function": "datapatched:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 50.0,
@@ -136,7 +136,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "function": "datapatched:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 50.0,
@@ -152,7 +152,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "minecraft:swift_sneak"
             }
           ],
@@ -259,7 +259,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "function": "datapatched:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 39.0,
@@ -327,7 +327,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ],
@@ -416,7 +416,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "minecraft:mending"
             }
           ],

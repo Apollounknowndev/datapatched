@@ -140,7 +140,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ],
@@ -276,7 +276,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "datapatched:enchant_randomly",
               "options": "minecraft:unbreaking"
             }
           ],

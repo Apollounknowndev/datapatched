@@ -5,15 +5,15 @@ import json
 # Per-mod: Update this for each mod!!!
 
 MOD_ID = "datapatched"
-MOD_VERSION = "2.0.2"
+MOD_VERSION = "2.1.0"
 CHANGELOG = """
-- Update to 1.21.11.
+- Replaced Datapatched's custom trade format with the upcoming vanilla one as a mostly direct backport, see wiki for details.
 """
 UPLOAD_VERSIONS = [
-    #("fabric", "1.21.1"),
-    #("neoforge", "1.21.1"),
+    ("fabric", "1.21.1"),
+    ("neoforge", "1.21.1"),
     ("fabric", "1.21.11"),
-    #("neoforge", "1.21.11"),
+    ("neoforge", "1.21.11"),
 ]
 
 MODRINTH_ID = "7XXwJbHD"

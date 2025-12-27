@@ -1,9 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "datapatched:armorer/expert/sell_boots",
-    "datapatched:armorer/expert/sell_leggings",
-    "datapatched:armorer/expert/sell_chestplate",
-    "datapatched:armorer/expert/sell_helmet"
-  ]
-}

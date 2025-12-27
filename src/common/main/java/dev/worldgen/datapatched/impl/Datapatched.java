@@ -2,32 +2,29 @@ package dev.worldgen.datapatched.impl;
 
 import com.mojang.serialization.MapCodec;
 import dev.worldgen.datapatched.api.loot.LootModifier;
-import dev.worldgen.datapatched.api.trade.TradeOffer;
-import dev.worldgen.datapatched.impl.loot.function.ApplyDyesFunction;
-import dev.worldgen.datapatched.impl.loot.function.DiscardFunction;
-import dev.worldgen.datapatched.impl.loot.function.ItemSwapFunction;
+import dev.worldgen.datapatched.impl.loot.function.*;
 import dev.worldgen.datapatched.impl.loot.modifier.AddEntries;
 import dev.worldgen.datapatched.impl.loot.modifier.AddPools;
 import dev.worldgen.datapatched.impl.loot.modifier.ApplyFunction;
-import dev.worldgen.datapatched.impl.trade.offer.Base;
-import dev.worldgen.datapatched.impl.trade.offer.Condition;
-import dev.worldgen.datapatched.impl.trade.offer.Empty;
-import dev.worldgen.datapatched.impl.trade.offer.EnchantedBook;
-import dev.worldgen.datapatched.impl.trade.offer.EnchantedItem;
-import dev.worldgen.datapatched.impl.trade.offer.Group;
-import dev.worldgen.datapatched.impl.trade.offer.Random;
-import dev.worldgen.datapatched.impl.trade.offer.TypeSpecific;
 import java.util.function.BiConsumer;
+
+import dev.worldgen.datapatched.impl.loot.number.Sum;
+import dev.worldgen.datapatched.impl.loot.predicate.VillagerTypePredicate;
+import dev.worldgen.datapatched.impl.trade.VillagerTrade;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
+import net.minecraft.core.component.DataComponentType;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.packs.repository.Pack;
-import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.npc.villager.AbstractVillager;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.npc.villager.VillagerTrades;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction;
 import net.minecraft.world.level.storage.loot.functions.LootItemFunctionType;
+import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
+import net.minecraft.world.level.storage.loot.providers.number.LootNumberProviderType;
 import net.msrandom.multiplatform.annotations.Expect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,7 +40,10 @@ public class Datapatched {
     public static Pack.ResourcesSupplier createTradeRebalanceSupplier();
 
     @Expect
-    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, AbstractVillager merchant, RandomSource random);
+    public static MerchantOffer getOffer(VillagerTrades.ItemListing listing, LootContext context);
+
+    @Expect
+    public static Entity getEntity(LootContext context);
 
     public static Identifier id(String name) {
         return Identifier.fromNamespaceAndPath("datapatched", name);
@@ -53,21 +53,25 @@ public class Datapatched {
         return ResourceKey.create(resourceKey, id(name));
     }
 
-    public static void registerTradeOffers(BiConsumer<String, MapCodec<? extends TradeOffer>> consumer) {
-        consumer.accept("base", Base.CODEC);
-        consumer.accept("condition", Condition.CODEC);
-        consumer.accept("empty", Empty.CODEC);
-        consumer.accept("enchanted_book", EnchantedBook.CODEC);
-        consumer.accept("enchanted_item", EnchantedItem.CODEC);
-        consumer.accept("group", Group.CODEC);
-        consumer.accept("random", Random.CODEC);
-        consumer.accept("type_specific", TypeSpecific.CODEC);
+    public static void registerDataComponents(BiConsumer<Identifier, DataComponentType<?>> consumer) {
+        consumer.accept(Identifier.withDefaultNamespace("additional_trade_cost"), VillagerTrade.ADDITIONAL_TRADE_COST);
     }
 
-    public static void registerLootFunctions(BiConsumer<String, LootItemFunctionType<?>> consumer) {
-        consumer.accept("item_swap", ItemSwapFunction.TYPE);
-        consumer.accept("discard", DiscardFunction.TYPE);
-        consumer.accept("apply_dyes", ApplyDyesFunction.TYPE);
+    public static void registerNumberProviders(BiConsumer<Identifier, LootNumberProviderType> consumer) {
+        consumer.accept(Identifier.withDefaultNamespace("sum"), Sum.TYPE);
+    }
+
+    public static void registerLootConditions(BiConsumer<String, LootItemConditionType> consumer) {
+        consumer.accept("villager_type", VillagerTypePredicate.TYPE);
+    }
+
+    public static void registerLootFunctions(BiConsumer<Identifier, LootItemFunctionType<?>> consumer) {
+        consumer.accept(Datapatched.id("item_swap"), ItemSwap.TYPE);
+        consumer.accept(Datapatched.id("filtered"), NewFiltered.TYPE);
+        consumer.accept(Datapatched.id("enchant_randomly"), NewEnchantRandomly.TYPE);
+        consumer.accept(Datapatched.id("enchant_with_levels"), NewEnchantWithLevels.TYPE);
+        consumer.accept(Identifier.withDefaultNamespace("set_random_dyes"), SetRandomDyes.TYPE);
+        consumer.accept(Identifier.withDefaultNamespace("set_random_potion"), SetRandomPotion.TYPE);
     }
 
     public static void registerLootModifiers(BiConsumer<String, MapCodec<? extends LootModifier>> consumer) {
