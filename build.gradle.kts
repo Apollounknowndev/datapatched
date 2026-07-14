@@ -1,36 +1,23 @@
 plugins {
     kotlin("jvm") version "2.1.0"
-    id("earth.terrarium.cloche") version "0.17.1"
+    id("earth.terrarium.cloche") version "0.18.10"
 }
 
 repositories {
+    cloche.librariesMinecraft()
+    mavenCentral()
     cloche {
+        main()
         mavenNeoforgedMeta()
         mavenNeoforged()
-        mavenForge()
         mavenFabric()
-        mavenParchment()
-        librariesMinecraft()
-        main()
     }
-    mavenLocal()
-    mavenCentral()
-    maven("https://api.modrinth.com/maven")
 }
 
 group = "dev.worldgen"
-version = "2.1.0"
+version = "2.2.0"
 
 cloche {
-    targets.all {
-        mappings {
-            official()
-            custom(minecraftVersion.map {
-                project.dependencies.create(files("mappings/$it.tiny"))
-            })
-        }
-    }
-
     metadata {
         modId = "datapatched"
         name = "Datapatched"
@@ -47,19 +34,23 @@ cloche {
         dependencies {
             compileOnly("org.spongepowered:mixin:0.8.3")
         }
-
-        data()
     }
 
-    val shared1211 = common("shared:1.21.1")
-    val shared12111 = common("shared:1.21.11")
+    val sharedOld = common("shared:21.1")
+    val sharedNew = common("shared:26.1")
 
-    fabric("fabric:1.21.1") {
-        dependsOn(shared1211)
+    fabric("fabric:21.1") {
+        dependsOn(sharedOld)
 
-        loaderVersion = "0.17.0"
+        loaderVersion = "0.18.5"
         minecraftVersion = "1.21.1"
-        datagenDirectory = file("src/common/main/generated")
+        
+        mappings {
+            official()
+            custom(minecraftVersion.map {
+                project.dependencies.create(files("mappings/$it.tiny"))
+            })
+        }
 
         dependencies {
             fabricApi("0.116.1")
@@ -69,75 +60,63 @@ cloche {
         runs {
             client()
             server()
-            //data {
-            //    mixins.from(file("src/fabric/1.21.1/data/datapatched_datagen.mixins.json"))
-            //}
         }
-        //data()
 
         metadata {
             entrypoint("main") {
                 value = "dev.worldgen.datapatched.impl.DatapatchedEntrypoint"
             }
-            //entrypoint("fabric-datagen") {
-            //    value = "dev.worldgen.datapatched.data.DatapatchedDatagen"
-            //}
         }
     }
 
-    fabric("fabric:1.21.11") {
-        dependsOn(shared12111)
+    fabric("fabric:26.1") {
+        dependsOn(sharedNew)
 
-        loaderVersion = "0.18.2"
-        minecraftVersion = "1.21.11"
-        datagenDirectory = file("src/common/main/generated")
+        loaderVersion = "0.18.5"
+        minecraftVersion = "26.1"
 
         dependencies {
-            fabricApi("0.139.4")
+            fabricApi("0.144.3")
         }
 
         includedClient()
         runs {
             client()
             server()
-            //data {
-            //    mixins.from(file("src/fabric/1.21.11/data/datapatched_datagen.mixins.json"))
-            //}
         }
-        //data()
 
         metadata {
             entrypoint("main") {
                 value = "dev.worldgen.datapatched.impl.DatapatchedEntrypoint"
             }
-            //entrypoint("fabric-datagen") {
-            //    value = "dev.worldgen.datapatched.data.DatapatchedDatagen"
-            //}
         }
     }
 
-    neoforge("neoforge:1.21.1") {
-        dependsOn(shared1211)
+    neoforge("neoforge:21.1") {
+        dependsOn(sharedOld)
 
         loaderVersion = "21.1.206"
         minecraftVersion = "1.21.1"
-        datagenDirectory = file("src/common/main/generated")
+        
+        mappings {
+            official()
+            custom(minecraftVersion.map {
+                project.dependencies.create(files("mappings/$it.tiny"))
+            })
+        }
 
-        //data()
         runs {
             client()
             server()
         }
     }
 
-    neoforge("neoforge:1.21.11") {
-        dependsOn(shared12111)
+    neoforge("neoforge:26.1") {
+        dependsOn(sharedNew)
 
-        loaderVersion = "21.11.12-beta"
-        minecraftVersion = "1.21.11"
-        //datagenDirectory = file("src/common/main/generated")
+        loaderVersion = "26.1.0.8-beta"
+        minecraftVersion = "26.1"
 
-        //data()
         runs {
             client()
             server()

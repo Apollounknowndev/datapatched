@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.worldgen.datapatched.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "loot.LootPoolAccessor",
+    "loot.LootTableAccessor",
+    "loot.ReloadableServerRegistriesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

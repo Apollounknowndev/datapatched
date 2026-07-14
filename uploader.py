@@ -5,23 +5,27 @@ import json
 # Per-mod: Update this for each mod!!!
 
 MOD_ID = "datapatched"
-MOD_VERSION = "2.1.0"
+MOD_VERSION = "2.2.2"
 CHANGELOG = """
-- Replaced Datapatched's custom trade format with the upcoming vanilla one as a mostly direct backport, see wiki for details.
+- Fixed crashing on Neoforge.
 """
 UPLOAD_VERSIONS = [
-    ("fabric", "1.21.1"),
-    ("neoforge", "1.21.1"),
-    ("fabric", "1.21.11"),
-    ("neoforge", "1.21.11"),
+    #("fabric", "21.1"),
+    ("neoforge", "21.1"),
+    #("fabric", "26.1"),
+    ("neoforge", "26.1"),
+    #("fabric", "26.2"),
+    ("neoforge", "26.2"),
 ]
+
+DEPENDENCIES = []
 
 MODRINTH_ID = "7XXwJbHD"
 CURSEFORGE_ID = "1366720"
 
 RELEASE_TYPE = "release"
 
-# Global: Should never need to be touched!
+# Global: Should usually not be touched!
 
 BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
@@ -29,14 +33,20 @@ BASE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 MODRINTH_TOKEN = os.getenv('TOKEN_MR')
 if not MODRINTH_TOKEN:
     raise EnvironmentError("MODRINTH_TOKEN is unset!")
+MODRINTH_GAME_VERSIONS = {
+    "21.1": ["1.21.1"],
+    "26.1": ["26.1", "26.1.1", "26.1.2"],
+    "26.2": ["26.2"],
+}
 
 CURSEFORGE_TOKEN = os.getenv('TOKEN_CF')
 if not CURSEFORGE_TOKEN:
     raise EnvironmentError("CURSEFORGE_TOKEN is unset!")
 CURSEFORGE_URL = f"https://minecraft.curseforge.com/api/v1/projects/{CURSEFORGE_ID}/upload-file"
 CURSEFORGE_GAME_VERSIONS = {
-    "1.21.1": [11779],
-    "1.21.11": [14406],
+    "21.1": [11779],
+    "26.1": [15933, 16021, 16082],
+    "26.2": [16498],
 }
 CURSEFORGE_LOADERS = {
     "fabric": 7499,
@@ -47,18 +57,21 @@ CURSEFORGE_LOADERS = {
 
 # Code
 
-def upload_modrinth(loader: str, version: str, file_path: str):
+def upload_modrinth(loader: str, version: str, file_path: str, dependencies):
+
+    game_versions = MODRINTH_GAME_VERSIONS.get(version)
+
     metadata = {
         "name": f"v{MOD_VERSION} ~ {loader.title()} {version}",
         "version_number": f"{MOD_VERSION}-{loader}-{version}",
         "project_id": MODRINTH_ID,
-        "game_versions": [version],
+        "game_versions": game_versions,
         "loaders": [loader],
         "featured": True,
         "changelog": CHANGELOG,
         "version_type": RELEASE_TYPE,
         "file_parts": ["file"],
-        "dependencies": []
+        "dependencies": dependencies
     }
 
     with open(file_path, 'rb') as mod_file:
@@ -85,7 +98,7 @@ def upload_modrinth(loader: str, version: str, file_path: str):
             print(response.text)
 
 
-def upload_curseforge(loader: str, version: str, file_path: str):
+def upload_curseforge(loader: str, version: str, file_path: str, dependencies):
     headers = {
         "X-Api-Token": CURSEFORGE_TOKEN
     }
@@ -104,7 +117,8 @@ def upload_curseforge(loader: str, version: str, file_path: str):
         "gameVersions": game_version_ids + [modloader_id],
         "releaseType": RELEASE_TYPE,
         "changelog": CHANGELOG,
-        "changelogType": "markdown"
+        "changelogType": "markdown",
+        "dependencies": dependencies
     }
     metastr = json.dumps(metadata)
 
@@ -134,14 +148,30 @@ def upload_curseforge(loader: str, version: str, file_path: str):
 for modloader, game_version in UPLOAD_VERSIONS:
     mod_path = os.path.join(
         BASE_FOLDER,
+        'versions',
+        f'{game_version}-{modloader}\\'
         'build',
         'libs',
         f'{MOD_ID}-{MOD_VERSION}-{modloader}-{game_version}.jar'
     )
 
+    dependencies = DEPENDENCIES.copy()
+    if (modloader == "fabric"):
+        dependencies.append(
+            {
+                "mod_name": "Fabric API",
+                "modId": 306612,
+                "relationType": 3,
+                "project_id": "P7dR8mSH",
+                "dependency_type": "required"
+            }
+        )
+
     if not os.path.exists(mod_path):
         print(f"File not found, skipping: {mod_path}")
         continue
 
-    upload_modrinth(modloader, game_version, mod_path)
-    upload_curseforge(modloader, game_version, mod_path)
+    upload_modrinth(modloader, game_version, mod_path, dependencies)
+    upload_curseforge(modloader, game_version, mod_path, dependencies)
+
+input("Press any key to close")
